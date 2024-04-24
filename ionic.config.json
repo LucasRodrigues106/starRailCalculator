@@ -1,0 +1,7 @@
+{
+  "name": "starRailCalculator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
