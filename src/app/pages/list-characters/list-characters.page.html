@@ -12,10 +12,8 @@
     <div
       style="box-shadow: 0 3px 10px black; background-color: #333333; display: flex; align-items: center; justify-content: center; flex-direction: column; border-radius: 10px; overflow: hidden;">
 
-      <div>
-        <a href="/wiki/Acheron">
-          <img style="border-radius: 10px;" src="{{character.iconImage}}" alt=""> 
-        </a>
+      <div [ngStyle]="{'background-color': character.rarity < 5 ? '#660066' : '#e5ab00'}" style="border-radius: 10px;">
+        <img src="../../../assets/imagesCharacters/{{character.name}}.webp" alt="">
       </div>
 
       <div
