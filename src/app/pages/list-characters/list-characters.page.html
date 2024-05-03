@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>listCharacters</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="myGrid" style="padding: 8px; background-color: #333;">
+    @for (character of charactersList; track $index) {
+
+    <div
+      style="box-shadow: 0 3px 10px black; background-color: #333333; display: flex; align-items: center; justify-content: center; flex-direction: column; border-radius: 10px; overflow: hidden;">
+
+      <div>
+        <a href="/wiki/Acheron">
+          <img style="border-radius: 10px;" src="{{character.iconImage}}" alt=""> 
+        </a>
+      </div>
+
+      <div
+        style="text-align: center; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding: 5px;">
+        {{character.name}}
+      </div>
+    </div>
+
+    }
+
+  </div>
+
+</ion-content>

@@ -1,0 +1,210 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      HSR Damage Calculator
+    </ion-title>
+  </ion-toolbar>
+
+  <div style="display: flex; padding: 8px; background-color: #1e1e1e; text-align: center;">
+    @if (damageHistory.length > 0) {
+    <div style="flex: 6; display: flex; flex-direction: column; font-size: 1rem;">
+      <div>Dano Atual</div>
+      <div>
+        {{damageHistory[damageHistory.length - 1]}}
+      </div>
+    </div>
+    }
+
+    @if (damageHistory.length > 1) {
+    <div style="flex: 6; display: flex; flex-direction: column; font-size: 1rem;">
+      <div>Ultimo Dano</div>
+      <div>{{damageHistory[0]}}</div>
+    </div>
+    }
+  </div>
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-item style="flex: 6;">
+    <ion-input label="Descrição" labelPlacement="stacked" placeholder="ex.: Clara Pericia" [clearInput]="true" type="text"
+      [(ngModel)]="description">
+    </ion-input>
+  </ion-item>
+
+  <div style="display: flex; flex-direction: column; gap: 5px; padding-top: 5px; padding-bottom: 5px;">
+
+    <div style="display: flex; gap: 5px;">
+
+      <ion-item style="flex: 6;">
+        <ion-input inputmode="numeric" min="0" max="80" label="Nivel do Personagem" labelPlacement="stacked"
+          [clearInput]="true" type="number" [(ngModel)]="characterLevel">
+        </ion-input>
+
+      </ion-item>
+
+      <ion-item style="flex: 6;">
+        <ion-input inputmode="numeric" min="0" label="Nivel do Inimigo" labelPlacement="stacked" [clearInput]="true"
+          type="number" [(ngModel)]="enemyLevel">
+        </ion-input>
+
+      </ion-item>
+
+    </div>
+
+    <ion-item>
+      <ion-input inputmode="numeric" min="0" label="Atributo de escalonamento da Habilidade (ATQ, HP ou DEF)"
+        labelPlacement="stacked" [clearInput]="true" type="number" [(ngModel)]="scallingAtribute">
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input inputmode="numeric" min="0" label="Multiplicador de Dano da Habilidade" labelPlacement="stacked"
+        [clearInput]="true" type="number" [(ngModel)]="skillMultiplier">
+      </ion-input>
+    </ion-item>
+
+    <div>
+      <ion-item>
+        <ion-label>Habilidade Pode Causar Dano Critico?</ion-label>
+        <ion-toggle [(ngModel)]="causedCrit"></ion-toggle>
+      </ion-item>
+
+      @if (causedCrit) {
+
+      <ion-item>
+        <ion-input inputmode="numeric" min="0" label="Dano Critico do Personagem" labelPlacement="stacked"
+          [clearInput]="true" type="number" [(ngModel)]="critDamage">
+        </ion-input>
+      </ion-item>
+
+      }
+    </div>
+
+    <ion-item>
+      <ion-input inputmode="numeric" min="0" label="Dano Elemental" labelPlacement="stacked" [clearInput]="true"
+        type="number" [(ngModel)]="elementalDamage">
+      </ion-input>
+    </ion-item>
+
+    <div style="display: flex; flex-direction: column; gap: 5px;">
+
+      <div>
+        <ion-item>
+          <ion-input inputmode="numeric" min="0" label="Bonus de Dano (Bonus de Ataque extra,pericia,atq basico)"
+            labelPlacement="stacked" [clearInput]="true" type="number" [(ngModel)]="damageBoost">
+            <ion-button fill="clear" slot="end" (click)="addBoostDamage()">
+              Adicionar
+            </ion-button>
+
+          </ion-input>
+        </ion-item>
+        @if (allDamageBoost.length > 0) {
+        <ion-item>
+          <span style="font-size: 0.9rem;">
+            Bonus total {{sharedService.sumNumberInArray(allDamageBoost)}}%
+          </span>
+          <ion-button fill="clear" slot="end" aria-label="Show/hide" (click)="removeAllBoostDamage()">
+            Limpar Bonus de Dano
+          </ion-button>
+        </ion-item>
+        }
+
+      </div>
+
+    </div>
+
+    <div style="display: flex; gap: 5px;">
+
+      <div style="display: flex; flex-direction: column; flex: 6;">
+
+        <ion-item style="flex: 6;">
+          <ion-input inputmode="numeric" min="0" label="Redução de Defesa" labelPlacement="stacked" [clearOnEdit]="true"
+            type="number" [(ngModel)]="reductionDefense" max="80">
+            <ion-button fill="clear" slot="end" aria-label="Show/hide" (click)="addReductionDefenseEnemy()">
+              <ion-icon name="add-outline"></ion-icon>
+            </ion-button>
+          </ion-input>
+        </ion-item>
+
+        @if (reductionsEnemyDefense.length > 0) {
+        <span style="background-color: #1e1e1e; font-size: 0.8rem; text-align: center; padding: 4px;">
+          Defesa Reduzida {{sharedService.sumNumberInArray(reductionsEnemyDefense)}}%
+          <ion-button fill="clear" style="font-size: 0.8rem; margin: 0;" (click)="removeReductionDefenseEnemy()">
+            Limpar
+          </ion-button>
+        </span>
+        }
+
+
+      </div>
+
+      <div style="display: flex; flex-direction: column; flex: 6;">
+
+        <ion-item style="flex: 6;">
+          <ion-input inputmode="numeric" min="0" label="Defesa Ignorada" labelPlacement="stacked" [clearOnEdit]="true"
+            type="number" [(ngModel)]="ignoreDefense">
+            <ion-button fill="clear" slot="end" aria-label="Show/hide" (click)="addIgnoreEnemyDefense()">
+              <ion-icon name="add-outline"></ion-icon>
+            </ion-button>
+          </ion-input>
+
+        </ion-item>
+
+        @if (ignoredEnemyDefenses.length > 0) {
+        <span style="background-color: #1e1e1e; font-size: 0.8rem; text-align: center; padding: 4px;">
+          Defesa Ignorada {{sharedService.sumNumberInArray(ignoredEnemyDefenses)}}%
+          <ion-button fill="clear" style="font-size: 0.8rem; margin: 0;" (click)="removeIgnoreEnemyDefense()">
+            Limpar
+          </ion-button>
+        </span>
+        }
+
+      </div>
+
+    </div>
+
+    <ion-item>
+      <ion-input inputmode="numeric" min="0" label="Diminuição de Resistência" labelPlacement="stacked"
+        [clearInput]="true" type="number" [(ngModel)]="decreaseResistanceEnemy">
+      </ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input inputmode="numeric" min="0" label="Penetração de Resistencia do Personagem" labelPlacement="stacked"
+        [clearInput]="true" type="number" [(ngModel)]="characterResistancePenetration">
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Inimigo possui fraqueza ao elemento do personagem?</ion-label>
+      <ion-toggle [(ngModel)]="weakAgainstTheElement"></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Inimigo com quebra de Fraqueza?</ion-label>
+      <ion-toggle [(ngModel)]="weaknessBroken"></ion-toggle>
+    </ion-item>
+
+  </div>
+
+</ion-content>
+
+<ion-footer [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons style="display: flex; justify-content: space-around;">
+      <ion-button style="border: 1px solid white; border-radius: 10px;" (click)="clearInformations()">
+        Limpar Tudo
+      </ion-button>
+      <ion-button style="border: 1px solid white; border-radius: 10px;" (click)="damageCalculator()">
+        Calcular
+      </ion-button>
+      <!-- <ion-button style="border: 1px solid white; border-radius: 10px;" (click)="huohuo()">
+        huohuo
+      </ion-button> -->
+      <ion-button style="border: 1px solid white; border-radius: 10px;" (click)="clara()">
+        clara
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

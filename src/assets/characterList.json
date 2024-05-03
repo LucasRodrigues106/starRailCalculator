@@ -1,0 +1,6269 @@
+[
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/24/Character_Acheron_Icon.png/revision/latest/scale-to-width-down/40?cb=20240322035550",
+    "name": "Acheron",
+    "rarity": 5,
+    "path": "Nihility",
+    "damageType": "Lightning",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8d/Ability_Trilateral_Wiltcross.png/revision/latest/scale-to-width-down/46?cb=20240327020030",
+        "name": "Trilateral Wiltcross",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Ability_Octobolt_Flash.png/revision/latest/scale-to-width-down/46?cb=20240327020025",
+        "name": "Octobolt Flash",
+        "type": "Skill",
+        "tag": "Blast",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            130,
+            140,
+            150,
+            160,
+            168,
+            176
+          ],
+          [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48.75,
+            52.5,
+            56.25,
+            60,
+            63,
+            66
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/35/Ability_Slashed_Dream_Cries_in_Red.png/revision/latest/scale-to-width-down/46?cb=20240327020029",
+        "name": "Slashed Dream Cries in Red",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            14.4,
+            15.36,
+            16.32,
+            17.28,
+            18.24,
+            19.2,
+            20.4,
+            21.6,
+            22.8,
+            24,
+            24.96,
+            25.92
+          ],
+          [
+            9,
+            9.6,
+            10.2,
+            10.8,
+            11.4,
+            12,
+            12.75,
+            13.5,
+            14.25,
+            15,
+            15.6,
+            16.2
+          ],
+          [
+            72,
+            76.8,
+            81.6,
+            86.4,
+            91.2,
+            96,
+            102,
+            108,
+            114,
+            120,
+            124.8,
+            129.6
+          ],
+          [
+            36,
+            38.4,
+            40.8,
+            43.2,
+            45.6,
+            48,
+            51,
+            54,
+            57,
+            60,
+            62.4,
+            64.8
+          ],
+          [
+            223.2,
+            238.08,
+            252.96,
+            267.84,
+            282.72,
+            297.6,
+            316.2,
+            334.8,
+            353.4,
+            372,
+            386.88,
+            401.76
+          ],
+          [
+            180,
+            192,
+            204,
+            216,
+            228,
+            240,
+            255,
+            270,
+            285,
+            300,
+            312,
+            324
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4d/Ability_Atop_Rainleaf_Hangs_Oneness.png/revision/latest/scale-to-width-down/46?cb=20240327020023",
+        "name": "Atop Rainleaf Hangs Oneness",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16.25,
+            17.5,
+            18.75,
+            20,
+            21,
+            22
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c0/Character_Argenti_Icon.png/revision/latest/scale-to-width-down/40?cb=20231209093828",
+    "name": "Argenti",
+    "rarity": 5,
+    "path": "Erudition",
+    "damageType": "Physical",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/ab/Ability_Fleeting_Fragrance.png/revision/latest/scale-to-width-down/46?cb=20231206035923",
+        "name": "Fleeting Fragrance",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/38/Ability_Justice%2C_Hereby_Blooms.png/revision/latest/scale-to-width-down/46?cb=20231206035926",
+        "name": "Justice, Hereby Blooms",
+        "type": "Skill",
+        "tag": "AoE",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            60,
+            66,
+            72,
+            78,
+            84,
+            90,
+            97.5,
+            105,
+            112.5,
+            120,
+            126,
+            132
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Ability_For_In_This_Garden_Supreme_Beauty_Bestows.png/revision/latest/scale-to-width-down/46?cb=20231206035924",
+        "name": "For In This Garden Supreme Beauty Bestows",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            96,
+            102.4,
+            108.8,
+            115.2,
+            121.6,
+            128,
+            136,
+            144,
+            152,
+            160,
+            166.4,
+            172.8
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/78/Ability_Merit_Bestowed_in_My_Garden.png/revision/latest/scale-to-width-down/46?cb=20231206035930",
+        "name": "Merit Bestowed in \"My\" Garden",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            168,
+            179.2,
+            190.4,
+            201.6,
+            212.8,
+            224,
+            238,
+            252,
+            266,
+            280,
+            291.2,
+            302.4
+          ],
+          [
+            57,
+            60.8,
+            64.6,
+            68.4,
+            72.2,
+            76,
+            80.75,
+            85.5,
+            90.25,
+            95,
+            98.8,
+            102.6
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Ability_Sublime_Object.png/revision/latest/scale-to-width-down/46?cb=20231206035931",
+        "name": "Sublime Object",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            1,
+            1.15,
+            1.3,
+            1.45,
+            1.6,
+            1.75,
+            1.9375,
+            2.125,
+            2.3125,
+            2.5,
+            2.65,
+            2.8
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a9/Character_Arlan_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723080444",
+    "name": "Arlan",
+    "rarity": 4,
+    "path": "Destruction",
+    "damageType": "Lightning",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1f/Ability_Lightning_Rush.png/revision/latest/scale-to-width-down/46?cb=20230211193704",
+        "name": "Lightning Rush",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5f/Ability_Shackle_Breaker.png/revision/latest/scale-to-width-down/46?cb=20230211193747",
+        "name": "Shackle Breaker",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            120,
+            132,
+            144,
+            156,
+            168,
+            180,
+            195,
+            210,
+            225,
+            240,
+            252,
+            264
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5d/Ability_Frenzied_Punishment.png/revision/latest/scale-to-width-down/46?cb=20230211193606",
+        "name": "Frenzied Punishment",
+        "type": "Ultimate",
+        "tag": "Blast",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            192,
+            204.8,
+            217.6,
+            230.4,
+            243.2,
+            256,
+            272,
+            288,
+            304,
+            320,
+            332.8,
+            345.6
+          ],
+          [
+            96,
+            102.4,
+            108.8,
+            115.2,
+            121.6,
+            128,
+            136,
+            144,
+            152,
+            160,
+            166.4,
+            172.8
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/55/Ability_Pain_and_Anger.png/revision/latest/scale-to-width-down/46?cb=20230211193721",
+        "name": "Pain and Anger",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            36,
+            39.6,
+            43.2,
+            46.8,
+            50.4,
+            54,
+            58.5,
+            63,
+            67.5,
+            72,
+            75.6,
+            79.2
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9f/Character_Asta_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723080506",
+    "name": "Asta",
+    "rarity": 4,
+    "path": "Harmony",
+    "damageType": "Fire",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/92/Ability_Spectrum_Beam.png/revision/latest/scale-to-width-down/46?cb=20230514152434",
+        "name": "Spectrum Beam",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Ability_Meteor_Storm.png/revision/latest/scale-to-width-down/46?cb=20230514152443",
+        "name": "Meteor Storm",
+        "type": "Skill",
+        "tag": "Bounce",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            25,
+            27.5,
+            30,
+            32.5,
+            35,
+            37.5,
+            40.625,
+            43.75,
+            46.875,
+            50,
+            52.5,
+            55
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f2/Ability_Astral_Blessing.png/revision/latest/scale-to-width-down/46?cb=20230504211115",
+        "name": "Astral Blessing",
+        "type": "Ultimate",
+        "tag": "Support",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            36,
+            37.4,
+            38.8,
+            40.2,
+            41.6,
+            43,
+            44.75,
+            46.5,
+            48.25,
+            50,
+            51.4,
+            52.8
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/89/Ability_Astrometry.png/revision/latest/scale-to-width-down/46?cb=20230514152724",
+        "name": "Astrometry",
+        "type": "Talent",
+        "tag": "Support",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            7,
+            7.7,
+            8.4,
+            9.1,
+            9.8,
+            10.5,
+            11.375,
+            12.25,
+            13.125,
+            14,
+            14.7,
+            15.4
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/da/Character_Aventurine_Icon.png/revision/latest/scale-to-width-down/40?cb=20240327022115",
+    "name": "Aventurine",
+    "rarity": 5,
+    "path": "Preservation",
+    "damageType": "Imaginary",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f8/Ability_Straight_Bet.png/revision/latest/scale-to-width-down/46?cb=20240405222655",
+        "name": "Straight Bet",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Ability_Cornerstone_Deluxe.png/revision/latest/scale-to-width-down/46?cb=20240405222650",
+        "name": "Cornerstone Deluxe",
+        "type": "Skill",
+        "tag": "Defense",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            16,
+            17,
+            18,
+            19,
+            20,
+            20.8,
+            21.6,
+            22.4,
+            23.2,
+            24,
+            24.8,
+            25.6
+          ],
+          [
+            80,
+            128,
+            164,
+            200,
+            224,
+            248,
+            266,
+            284,
+            302,
+            320,
+            338,
+            356
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Ability_Roulette_Shark.png/revision/latest/scale-to-width-down/46?cb=20240405222651",
+        "name": "Roulette Shark",
+        "type": "Ultimate",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            162,
+            172.8,
+            183.6,
+            194.4,
+            205.2,
+            216,
+            229.5,
+            243,
+            256.5,
+            270,
+            280.8,
+            291.6
+          ],
+          [
+            9,
+            9.6,
+            10.2,
+            10.8,
+            11.4,
+            12,
+            12.75,
+            13.5,
+            14.25,
+            15,
+            15.6,
+            16.2
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/41/Ability_Shot_Loaded_Right.png/revision/latest/scale-to-width-down/46?cb=20240405222653",
+        "name": "Shot Loaded Right",
+        "type": "Talent",
+        "tag": "Bounce",
+        "energyGeneration": 1,
+        "scalling": [
+          [
+            12.5,
+            13.75,
+            15,
+            16.25,
+            17.5,
+            18.75,
+            20.3125,
+            21.875,
+            23.4375,
+            25,
+            26.25,
+            27.5
+          ],
+          [
+            25,
+            27.5,
+            30,
+            32.5,
+            35,
+            37.5,
+            40.625,
+            43.75,
+            46.875,
+            50,
+            52.5,
+            55
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/47/Character_Bailu_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723080553",
+    "name": "Bailu",
+    "rarity": 5,
+    "path": "Abundance",
+    "damageType": "Lightning",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1d/Ability_Diagnostic_Kick.png/revision/latest/scale-to-width-down/46?cb=20230211193549",
+        "name": "Diagnostic Kick",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Ability_Singing_Among_Clouds.png/revision/latest/scale-to-width-down/46?cb=20230211193752",
+        "name": "Singing Among Clouds",
+        "type": "Skill",
+        "tag": "Restore",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            7.8,
+            8.2875,
+            8.775,
+            9.2625,
+            9.75,
+            10.14,
+            10.53,
+            10.92,
+            11.31,
+            11.7,
+            12.09,
+            12.48
+          ],
+          [
+            78,
+            124.8,
+            159.9,
+            195,
+            218.4,
+            241.8,
+            259.35,
+            276.9,
+            294.45,
+            312,
+            329.55,
+            347.1
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b1/Ability_Felicitous_Thunderleap.png/revision/latest/scale-to-width-down/46?cb=20230211193701",
+        "name": "Felicitous Thunderleap",
+        "type": "Ultimate",
+        "tag": "Restore",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            9,
+            9.5625,
+            10.125,
+            10.6875,
+            11.25,
+            11.7,
+            12.15,
+            12.6,
+            13.05,
+            13.5,
+            13.95,
+            14.4
+          ],
+          [
+            90,
+            144,
+            184.5,
+            225,
+            252,
+            279,
+            299.25,
+            319.5,
+            339.75,
+            360,
+            380.25,
+            400.5
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9d/Ability_Gourdful_of_Elixir.png/revision/latest/scale-to-width-down/46?cb=20230211193619",
+        "name": "Gourdful of Elixir",
+        "type": "Talent",
+        "tag": "Restore",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            3.6,
+            3.825,
+            4.05,
+            4.275,
+            4.5,
+            4.68,
+            4.86,
+            5.04,
+            5.22,
+            5.4,
+            5.58,
+            5.76
+          ],
+          [
+            36,
+            57.6,
+            73.8,
+            90,
+            100.8,
+            111.6,
+            119.7,
+            127.8,
+            135.9,
+            144,
+            152.1,
+            160.2
+          ],
+          [
+            12,
+            12.75,
+            13.5,
+            14.25,
+            15,
+            15.6,
+            16.2,
+            16.8,
+            17.4,
+            18,
+            18.6,
+            19.2
+          ],
+          [
+            120,
+            192,
+            246,
+            300,
+            336,
+            372,
+            399,
+            426,
+            453,
+            480,
+            507,
+            534
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/90/Character_Black_Swan_Icon.png/revision/latest/scale-to-width-down/40?cb=20240206104620",
+    "name": "Black Swan",
+    "rarity": 5,
+    "path": "Nihility",
+    "damageType": "Wind",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/39/Ability_Percipience%2C_Silent_Dawn.png/revision/latest/scale-to-width-down/46?cb=20240206013932",
+        "name": "Percipience, Silent Dawn",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            30,
+            36,
+            42,
+            48,
+            54,
+            60,
+            66
+          ],
+          [
+            50,
+            53,
+            56,
+            59,
+            62,
+            65,
+            68
+          ],
+          [
+            50,
+            53,
+            56,
+            59,
+            62,
+            65,
+            68
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Ability_Decadence%2C_False_Twilight.png/revision/latest/scale-to-width-down/46?cb=20240206013927",
+        "name": "Decadence, False Twilight",
+        "type": "Skill",
+        "tag": "Blast",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            45,
+            49.5,
+            54,
+            58.5,
+            63,
+            67.5,
+            73.125,
+            78.75,
+            84.375,
+            90,
+            94.5,
+            99
+          ],
+          [
+            14.8,
+            15.4,
+            16,
+            16.6,
+            17.2,
+            17.8,
+            18.55,
+            19.3,
+            20.05,
+            20.8,
+            21.4,
+            22
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Ability_Bliss_of_Otherworld%27s_Embrace.png/revision/latest/scale-to-width-down/46?cb=20240206013925",
+        "name": "Bliss of Otherworld's Embrace",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            72,
+            76.8,
+            81.6,
+            86.4,
+            91.2,
+            96,
+            102,
+            108,
+            114,
+            120,
+            124.8,
+            129.6
+          ],
+          [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21.25,
+            22.5,
+            23.75,
+            25,
+            26,
+            27
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/29/Ability_Loom_of_Fate%27s_Caprice.png/revision/latest/scale-to-width-down/46?cb=20240206013930",
+        "name": "Loom of Fate's Caprice",
+        "type": "Talent",
+        "tag": "Impair",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            50,
+            51.5,
+            53,
+            54.5,
+            56,
+            57.5,
+            59.375,
+            61.25,
+            63.125,
+            65,
+            66.5,
+            68
+          ],
+          [
+            96,
+            111.84,
+            127.68,
+            143.52,
+            159.36,
+            175.2,
+            189.6,
+            204,
+            222,
+            240,
+            252,
+            264
+          ],
+          [
+            4.8,
+            5.592,
+            6.384,
+            7.176,
+            7.968,
+            8.76,
+            9.48,
+            10.2,
+            11.1,
+            12,
+            12.6,
+            13.2
+          ],
+          [
+            72,
+            83.88,
+            95.76,
+            107.64,
+            119.52,
+            131.4,
+            142.2,
+            153,
+            166.5,
+            180,
+            189,
+            198
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/90/Character_Blade_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723080612",
+    "name": "Blade",
+    "rarity": 5,
+    "path": "Destruction",
+    "damageType": "Wind",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a2/Ability_Shard_Sword.png/revision/latest/scale-to-width-down/46?cb=20230603154134",
+        "name": "Shard Sword",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/60/Ability_Forest_of_Swords.png/revision/latest/scale-to-width-down/46?cb=20230719081634",
+        "name": "Forest of Swords",
+        "type": "Basic ATK",
+        "tag": "Blast",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            20,
+            24,
+            28,
+            32,
+            36,
+            40,
+            44
+          ],
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ],
+          [
+            8,
+            9.6,
+            11.2,
+            12.8,
+            14.4,
+            16,
+            17.6
+          ],
+          [
+            20,
+            24,
+            28,
+            32,
+            36,
+            40,
+            44
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a7/Ability_Hellscape.png/revision/latest/scale-to-width-down/46?cb=20230603154250",
+        "name": "Hellscape",
+        "type": "Skill",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            12,
+            14.8,
+            17.6,
+            20.4,
+            23.2,
+            26,
+            29.5,
+            33,
+            36.5,
+            40,
+            42.8,
+            45.6
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7b/Ability_Death_Sentence.png/revision/latest/scale-to-width-down/46?cb=20230722105212",
+        "name": "Death Sentence",
+        "type": "Ultimate",
+        "tag": "Blast",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            24,
+            25.6,
+            27.2,
+            28.8,
+            30.4,
+            32,
+            34,
+            36,
+            38,
+            40,
+            41.6,
+            43.2
+          ],
+          [
+            60,
+            64,
+            68,
+            72,
+            76,
+            80,
+            85,
+            90,
+            95,
+            100,
+            104,
+            108
+          ],
+          [
+            60,
+            64,
+            68,
+            72,
+            76,
+            80,
+            85,
+            90,
+            95,
+            100,
+            104,
+            108
+          ],
+          [
+            9.6,
+            10.24,
+            10.88,
+            11.52,
+            12.16,
+            12.8,
+            13.6,
+            14.4,
+            15.2,
+            16,
+            16.64,
+            17.28
+          ],
+          [
+            24,
+            25.6,
+            27.2,
+            28.8,
+            30.4,
+            32,
+            34,
+            36,
+            38,
+            40,
+            41.6,
+            43.2
+          ],
+          [
+            24,
+            25.6,
+            27.2,
+            28.8,
+            30.4,
+            32,
+            34,
+            36,
+            38,
+            40,
+            41.6,
+            43.2
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/ad/Ability_Shuhu%27s_Gift.png/revision/latest/scale-to-width-down/46?cb=20230603154646",
+        "name": "Shuhu's Gift",
+        "type": "Talent",
+        "tag": "AoE",
+        "energyGeneration": 10,
+        "scalling": [
+          [
+            22,
+            24.2,
+            26.4,
+            28.6,
+            30.8,
+            33,
+            35.75,
+            38.5,
+            41.25,
+            44,
+            46.2,
+            48.4
+          ],
+          [
+            55,
+            60.5,
+            66,
+            71.5,
+            77,
+            82.5,
+            89.375,
+            96.25,
+            103.125,
+            110,
+            115.5,
+            121
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0f/Character_Bronya_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723080648",
+    "name": "Bronya",
+    "rarity": 5,
+    "path": "Harmony",
+    "damageType": "Wind",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e1/Ability_Windrider_Bullet.png/revision/latest/scale-to-width-down/46?cb=20230514145921",
+        "name": "Windrider Bullet",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Ability_Combat_Redeployment.png/revision/latest/scale-to-width-down/46?cb=20230514150234",
+        "name": "Combat Redeployment",
+        "type": "Skill",
+        "tag": "Support",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            33,
+            36.3,
+            39.6,
+            42.9,
+            46.2,
+            49.5,
+            53.625,
+            57.75,
+            61.875,
+            66,
+            69.3,
+            72.6
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Ability_The_Belobog_March.png/revision/latest/scale-to-width-down/46?cb=20230426172833",
+        "name": "The Belobog March",
+        "type": "Ultimate",
+        "tag": "Support",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            33,
+            35.2,
+            37.4,
+            39.6,
+            41.8,
+            44,
+            46.75,
+            49.5,
+            52.25,
+            55,
+            57.2,
+            59.4
+          ],
+          [
+            12,
+            12.4,
+            12.8,
+            13.2,
+            13.6,
+            14,
+            14.5,
+            15,
+            15.5,
+            16,
+            16.4,
+            16.8
+          ],
+          [
+            12,
+            12.8,
+            13.6,
+            14.4,
+            15.2,
+            16,
+            17,
+            18,
+            19,
+            20,
+            20.8,
+            21.6
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/70/Ability_Leading_the_Way.png/revision/latest/scale-to-width-down/46?cb=20230514150310",
+        "name": "Leading the Way",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            15,
+            16.5,
+            18,
+            19.5,
+            21,
+            22.5,
+            24.375,
+            26.25,
+            28.125,
+            30,
+            31.5,
+            33
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a4/Character_Clara_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723080716",
+    "name": "Clara",
+    "rarity": 5,
+    "path": "Destruction",
+    "damageType": "Physical",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2e/Ability_I_Want_to_Help.png/revision/latest/scale-to-width-down/46?cb=20230504111521",
+        "name": "I Want to Help",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Ability_Svarog_Watches_Over_You.png/revision/latest/scale-to-width-down/46?cb=20230504111526",
+        "name": "Svarog Watches Over You",
+        "type": "Skill",
+        "tag": "AoE",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            60,
+            66,
+            72,
+            78,
+            84,
+            90,
+            97.5,
+            105,
+            112.5,
+            120,
+            126,
+            132
+          ],
+          [
+            60,
+            66,
+            72,
+            78,
+            84,
+            90,
+            97.5,
+            105,
+            112.5,
+            120,
+            126,
+            132
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/da/Ability_Promise%2C_Not_Command.png/revision/latest/scale-to-width-down/46?cb=20230504111525",
+        "name": "Promise, Not Command",
+        "type": "Ultimate",
+        "tag": "Enhance",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21.25,
+            22.5,
+            23.75,
+            25,
+            26,
+            27
+          ],
+          [
+            96,
+            102.4,
+            108.8,
+            115.2,
+            121.6,
+            128,
+            136,
+            144,
+            152,
+            160,
+            166.4,
+            172.8
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a5/Ability_Because_We%27re_Family.png/revision/latest/scale-to-width-down/46?cb=20230504111523",
+        "name": "Because We're Family",
+        "type": "Talent",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            130,
+            140,
+            150,
+            160,
+            168,
+            176
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1a/Character_Dan_Heng_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723080807",
+    "name": "Dan Heng",
+    "rarity": 4,
+    "path": "TheHunt",
+    "damageType": "Wind",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/04/Ability_Cloudlancer_Art_North_Wind.png/revision/latest/scale-to-width-down/46?cb=20230516041550",
+        "name": "Cloudlancer Art: North Wind",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/59/Ability_Cloudlancer_Art_Torrent.png/revision/latest/scale-to-width-down/46?cb=20230516041634",
+        "name": "Cloudlancer Art: Torrent",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            130,
+            143,
+            156,
+            169,
+            182,
+            195,
+            211.25,
+            227.5,
+            243.75,
+            260,
+            273,
+            286
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a9/Ability_Ethereal_Dream.png/revision/latest/scale-to-width-down/46?cb=20230211193556",
+        "name": "Ethereal Dream",
+        "type": "Ultimate",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            240,
+            256,
+            272,
+            288,
+            304,
+            320,
+            340,
+            360,
+            380,
+            400,
+            416,
+            432
+          ],
+          [
+            72,
+            76.8,
+            81.6,
+            86.4,
+            91.2,
+            96,
+            102,
+            108,
+            114,
+            120,
+            124.8,
+            129.6
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6a/Ability_Superiority_of_Reach.png/revision/latest/scale-to-width-down/46?cb=20230516041655",
+        "name": "Superiority of Reach",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            18,
+            19.8,
+            21.6,
+            23.4,
+            25.2,
+            27,
+            29.25,
+            31.5,
+            33.75,
+            36,
+            37.8,
+            39.6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2a/Character_Dan_Heng_%E2%80%A2_Imbibitor_Lunae_Icon.png/revision/latest/scale-to-width-down/40?cb=20240326111321",
+    "name": "Dan Heng • Imbibitor Lunae",
+    "rarity": 5,
+    "path": "Destruction",
+    "damageType": "Imaginary",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/42/Ability_Beneficent_Lotus.png/revision/latest/scale-to-width-down/46?cb=20230830042518",
+        "name": "Beneficent Lotus",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/dc/Ability_Transcendence.png/revision/latest/scale-to-width-down/46?cb=20230830042519",
+        "name": "Transcendence",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            130,
+            156,
+            182,
+            208,
+            234,
+            260,
+            286
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/be/Ability_Divine_Spear.png/revision/latest/scale-to-width-down/46?cb=20230830042521",
+        "name": "Divine Spear",
+        "type": "Basic ATK",
+        "tag": "Blast",
+        "energyGeneration": 35,
+        "scalling": [
+          [
+            190,
+            228,
+            266,
+            304,
+            342,
+            380,
+            418
+          ],
+          [
+            30,
+            36,
+            42,
+            48,
+            54,
+            60,
+            66
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0e/Ability_Fulgurant_Leap.png/revision/latest/scale-to-width-down/46?cb=20230830042523",
+        "name": "Fulgurant Leap",
+        "type": "Basic ATK",
+        "tag": "Blast",
+        "energyGeneration": 40,
+        "scalling": [
+          [
+            250,
+            300,
+            350,
+            400,
+            450,
+            500,
+            550
+          ],
+          [
+            90,
+            108,
+            126,
+            144,
+            162,
+            180,
+            198
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/08/Ability_Dracore_Libre.png/revision/latest/scale-to-width-down/46?cb=20230830042514",
+        "name": "Dracore Libre",
+        "type": "Skill",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            6,
+            6.6,
+            7.2,
+            7.8,
+            8.4,
+            9,
+            9.75,
+            10.5,
+            11.25,
+            12,
+            12.6,
+            13.2
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1b/Ability_Azure%27s_Aqua_Ablutes_All.png/revision/latest/scale-to-width-down/46?cb=20230830042512",
+        "name": "Azure's Aqua Ablutes All",
+        "type": "Ultimate",
+        "tag": "Blast",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            180,
+            192,
+            204,
+            216,
+            228,
+            240,
+            255,
+            270,
+            285,
+            300,
+            312,
+            324
+          ],
+          [
+            84,
+            89.6,
+            95.2,
+            100.8,
+            106.4,
+            112,
+            119,
+            126,
+            133,
+            140,
+            145.6,
+            151.2
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/46/Ability_Righteous_Heart.png/revision/latest/scale-to-width-down/46?cb=20230830042525",
+        "name": "Righteous Heart",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8.125,
+            8.75,
+            9.375,
+            10,
+            10.5,
+            11
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/47/Character_Dr._Ratio_Icon.png/revision/latest/scale-to-width-down/40?cb=20231227130912",
+    "name": "Dr. Ratio",
+    "rarity": 5,
+    "path": "TheHunt",
+    "damageType": "Imaginary",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/64/Ability_Mind_is_Might.png/revision/latest/scale-to-width-down/46?cb=20231228055721",
+        "name": "Mind is Might",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c5/Ability_Intellectual_Midwifery.png/revision/latest/scale-to-width-down/46?cb=20231228055719",
+        "name": "Intellectual Midwifery",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            75,
+            82.5,
+            90,
+            97.5,
+            105,
+            112.5,
+            121.875,
+            131.25,
+            140.625,
+            150,
+            157.5,
+            165
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Ability_Syllogistic_Paradox.png/revision/latest/scale-to-width-down/46?cb=20231228055724",
+        "name": "Syllogistic Paradox",
+        "type": "Ultimate",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            144,
+            153.6,
+            163.2,
+            172.8,
+            182.4,
+            192,
+            204,
+            216,
+            228,
+            240,
+            249.6,
+            259.2
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/05/Ability_Cogito%2C_Ergo_Sum.png/revision/latest/scale-to-width-down/46?cb=20231228055718",
+        "name": "Cogito, Ergo Sum",
+        "type": "Talent",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            135,
+            148.5,
+            162,
+            175.5,
+            189,
+            202.5,
+            219.375,
+            236.25,
+            253.125,
+            270,
+            283.5,
+            297
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1a/Character_Fu_Xuan_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723080902",
+    "name": "Fu Xuan",
+    "rarity": 5,
+    "path": "Preservation",
+    "damageType": "Quantum",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ef/Ability_Novaburst.png/revision/latest/scale-to-width-down/46?cb=20230920035732",
+        "name": "Novaburst",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            25,
+            30,
+            35,
+            40,
+            45,
+            50,
+            55
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/35/Ability_Known_by_Stars%2C_Shown_by_Hearts.png/revision/latest/scale-to-width-down/46?cb=20230920035730",
+        "name": "Known by Stars, Shown by Hearts",
+        "type": "Skill",
+        "tag": "Defense",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            3,
+            3.3,
+            3.6,
+            3.9,
+            4.2,
+            4.5,
+            4.875,
+            5.25,
+            5.625,
+            6,
+            6.3,
+            6.6
+          ],
+          [
+            6,
+            6.6,
+            7.2,
+            7.8,
+            8.4,
+            9,
+            9.75,
+            10.5,
+            11.25,
+            12,
+            12.6,
+            13.2
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c7/Ability_Woes_of_Many_Morphed_to_One.png/revision/latest/scale-to-width-down/46?cb=20230920035735",
+        "name": "Woes of Many Morphed to One",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            60,
+            64,
+            68,
+            72,
+            76,
+            80,
+            85,
+            90,
+            95,
+            100,
+            104,
+            108
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d7/Ability_Bleak_Breeds_Bliss.png/revision/latest/scale-to-width-down/46?cb=20230920035729",
+        "name": "Bleak Breeds Bliss",
+        "type": "Talent",
+        "tag": "Restore",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            10,
+            10.8,
+            11.6,
+            12.4,
+            13.2,
+            14,
+            15,
+            16,
+            17,
+            18,
+            18.8,
+            19.6
+          ],
+          [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86.25,
+            87.5,
+            88.75,
+            90,
+            91,
+            92
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/12/Character_Gallagher_Icon.png/revision/latest/scale-to-width-down/40?cb=20240325014209",
+    "name": "Gallagher",
+    "rarity": 4,
+    "path": "Abundance",
+    "damageType": "Fire",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2c/Ability_Corkage_Fee.png/revision/latest/scale-to-width-down/46?cb=20240327020112",
+        "name": "Corkage Fee",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Ability_Nectar_Blitz.png/revision/latest/scale-to-width-down/46?cb=20240327020113",
+        "name": "Nectar Blitz",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            125,
+            150,
+            175,
+            200,
+            225,
+            250,
+            275
+          ],
+          [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Ability_Special_Brew.png/revision/latest/scale-to-width-down/46?cb=20240327020115",
+        "name": "Special Brew",
+        "type": "Skill",
+        "tag": "Restore",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            200,
+            340,
+            480,
+            676,
+            830,
+            984,
+            1138,
+            1292,
+            1446,
+            1600,
+            1684,
+            1768
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/89/Ability_Champagne_Etiquette.png/revision/latest/scale-to-width-down/46?cb=20240327020110",
+        "name": "Champagne Etiquette",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            75,
+            82.5,
+            90,
+            97.5,
+            105,
+            112.5,
+            121.875,
+            131.25,
+            140.625,
+            150,
+            157.5,
+            165
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Ability_Tipsy_Tussle.png/revision/latest/scale-to-width-down/46?cb=20240327020117",
+        "name": "Tipsy Tussle",
+        "type": "Talent",
+        "tag": "Restore",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            6,
+            6.6,
+            7.2,
+            7.8,
+            8.4,
+            9,
+            9.75,
+            10.5,
+            11.25,
+            12,
+            12.6,
+            13.2
+          ],
+          [
+            80,
+            136,
+            192,
+            270.4,
+            332,
+            393.6,
+            455.2,
+            516.8,
+            578.4,
+            640,
+            673.6,
+            707.2
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/75/Character_Gepard_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723080948",
+    "name": "Gepard",
+    "rarity": 5,
+    "path": "Preservation",
+    "damageType": "Ice",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Ability_Fist_of_Conviction.png/revision/latest/scale-to-width-down/46?cb=20230514155723",
+        "name": "Fist of Conviction",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c0/Ability_Daunting_Smite.png/revision/latest/scale-to-width-down/46?cb=20230514155411",
+        "name": "Daunting Smite",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            100,
+            110,
+            120,
+            130,
+            140,
+            150,
+            162.5,
+            175,
+            187.5,
+            200,
+            210,
+            220
+          ],
+          [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48.75,
+            52.5,
+            56.25,
+            60,
+            63,
+            66
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Ability_Enduring_Bulwark.png/revision/latest/scale-to-width-down/46?cb=20230211193555",
+        "name": "Enduring Bulwark",
+        "type": "Ultimate",
+        "tag": "Defense",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            30,
+            31.875,
+            33.75,
+            35.625,
+            37.5,
+            39,
+            40.5,
+            42,
+            43.5,
+            45,
+            46.5,
+            48
+          ],
+          [
+            150,
+            240,
+            307.5,
+            375,
+            420,
+            465,
+            498.75,
+            532.5,
+            566.25,
+            600,
+            633.75,
+            667.5
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8b/Ability_Unyielding_Will.png/revision/latest/scale-to-width-down/46?cb=20230514155551",
+        "name": "Unyielding Will",
+        "type": "Talent",
+        "tag": "Restore",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            25,
+            27.5,
+            30,
+            32.5,
+            35,
+            37.5,
+            40.625,
+            43.75,
+            46.875,
+            50,
+            52.5,
+            55
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/98/Character_Guinaifen_Icon.png/revision/latest/scale-to-width-down/40?cb=20231030000303",
+    "name": "Guinaifen",
+    "rarity": 4,
+    "path": "Nihility",
+    "damageType": "Fire",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/21/Ability_Standing_Ovation.png/revision/latest/scale-to-width-down/46?cb=20231027042027",
+        "name": "Standing Ovation",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Ability_Blazing_Welcome.png/revision/latest/scale-to-width-down/46?cb=20231027042022",
+        "name": "Blazing Welcome",
+        "type": "Skill",
+        "tag": "Blast",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            60,
+            66,
+            72,
+            78,
+            84,
+            90,
+            97.5,
+            105,
+            112.5,
+            120,
+            126,
+            132
+          ],
+          [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32.5,
+            35,
+            37.5,
+            40,
+            42,
+            44
+          ],
+          [
+            83.904,
+            92.298,
+            100.692,
+            109.086,
+            117.48,
+            130.071,
+            146.859,
+            167.844,
+            193.026,
+            218.208,
+            229.1202,
+            240.0324
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/17/Ability_Watch_This_Showstopper.png/revision/latest/scale-to-width-down/46?cb=20231027042020",
+        "name": "Watch This Showstopper",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            72,
+            76.8,
+            81.6,
+            86.4,
+            91.2,
+            96,
+            102,
+            108,
+            114,
+            120,
+            124.8,
+            129.6
+          ],
+          [
+            72,
+            74,
+            76,
+            78,
+            80,
+            82,
+            84.5,
+            87,
+            89.5,
+            92,
+            94,
+            96
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/47/Ability_PatrAeon_Benefits.png/revision/latest/scale-to-width-down/46?cb=20231027042024",
+        "name": "PatrAeon Benefits",
+        "type": "Talent",
+        "tag": "Impair",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            4,
+            4.3,
+            4.6,
+            4.9,
+            5.2,
+            5.5,
+            5.875,
+            6.25,
+            6.625,
+            7,
+            7.3,
+            7.6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Character_Hanya_Icon.png/revision/latest/scale-to-width-down/40?cb=20231209094526",
+    "name": "Hanya",
+    "rarity": 4,
+    "path": "Harmony",
+    "damageType": "Physical",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c7/Ability_Oracle_Brush.png/revision/latest/scale-to-width-down/46?cb=20231115092800",
+        "name": "Oracle Brush",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2a/Ability_Samsara%2C_Locked.png/revision/latest/scale-to-width-down/46?cb=20231115092802",
+        "name": "Samsara, Locked",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            120,
+            132,
+            144,
+            156,
+            168,
+            180,
+            195,
+            210,
+            225,
+            240,
+            252,
+            264
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Ability_Ten-Lords%27_Decree%2C_All_Shall_Obey.png/revision/latest/scale-to-width-down/46?cb=20231115092757",
+        "name": "Ten-Lords' Decree, All Shall Obey",
+        "type": "Ultimate",
+        "tag": "Enhance",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            15,
+            15.5,
+            16,
+            16.5,
+            17,
+            17.5,
+            18.125,
+            18.75,
+            19.375,
+            20,
+            20.5,
+            21
+          ],
+          [
+            36,
+            38.4,
+            40.8,
+            43.2,
+            45.6,
+            48,
+            51,
+            54,
+            57,
+            60,
+            62.4,
+            64.8
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/30/Ability_Sanction.png/revision/latest/scale-to-width-down/46?cb=20231115092803",
+        "name": "Sanction",
+        "type": "Talent",
+        "tag": "Support",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            15,
+            16.5,
+            18,
+            19.5,
+            21,
+            22.5,
+            24.375,
+            26.25,
+            28.125,
+            30,
+            31.5,
+            33
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bf/Character_Herta_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081012",
+    "name": "Herta",
+    "rarity": 4,
+    "path": "Erudition",
+    "damageType": "Ice",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/15/Ability_What_Are_You_Looking_At%3F.png/revision/latest/scale-to-width-down/46?cb=20230506073844",
+        "name": "What Are You Looking At?",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b4/Ability_One-Time_Offer.png/revision/latest/scale-to-width-down/46?cb=20230506073842",
+        "name": "One-Time Offer",
+        "type": "Skill",
+        "tag": "AoE",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            81.25,
+            87.5,
+            93.75,
+            100,
+            105,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6f/Ability_It%27s_Magic%2C_I_Added_Some_Magic.png/revision/latest/scale-to-width-down/46?cb=20230506073846",
+        "name": "It's Magic, I Added Some Magic",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            120,
+            128,
+            136,
+            144,
+            152,
+            160,
+            170,
+            180,
+            190,
+            200,
+            208,
+            216
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Ability_Fine%2C_I%27ll_Do_It_Myself.png/revision/latest/scale-to-width-down/46?cb=20230506073840",
+        "name": "Fine, I'll Do It Myself",
+        "type": "Talent",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            25,
+            26.5,
+            28,
+            29.5,
+            31,
+            32.5,
+            34.375,
+            36.25,
+            38.125,
+            40,
+            41.5,
+            43
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/00/Character_Himeko_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081029",
+    "name": "Himeko",
+    "rarity": 5,
+    "path": "Erudition",
+    "damageType": "Fire",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ef/Ability_Sawblade_Tuning.png/revision/latest/scale-to-width-down/46?cb=20230514082015",
+        "name": "Sawblade Tuning",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/da/Ability_Molten_Detonation.png/revision/latest/scale-to-width-down/46?cb=20230514082019",
+        "name": "Molten Detonation",
+        "type": "Skill",
+        "tag": "Blast",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            100,
+            110,
+            120,
+            130,
+            140,
+            150,
+            162.5,
+            175,
+            187.5,
+            200,
+            210,
+            220
+          ],
+          [
+            40,
+            44,
+            48,
+            52,
+            56,
+            60,
+            65,
+            70,
+            75,
+            80,
+            84,
+            88
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/05/Ability_Heavenly_Flare.png/revision/latest/scale-to-width-down/46?cb=20230211193623",
+        "name": "Heavenly Flare",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            138,
+            147.2,
+            156.4,
+            165.6,
+            174.8,
+            184,
+            195.5,
+            207,
+            218.5,
+            230,
+            239.2,
+            248.4
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/88/Ability_Victory_Rush.png/revision/latest/scale-to-width-down/46?cb=20230514082023",
+        "name": "Victory Rush",
+        "type": "Talent",
+        "tag": "AoE",
+        "energyGeneration": 10,
+        "scalling": [
+          [
+            70,
+            77,
+            84,
+            91,
+            98,
+            105,
+            113.75,
+            122.5,
+            131.25,
+            140,
+            147,
+            154
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Character_Hook_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081051",
+    "name": "Hook",
+    "rarity": 4,
+    "path": "Destruction",
+    "damageType": "Fire",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/03/Ability_Hehe%21_Don%27t_Get_Burned%21.png/revision/latest/scale-to-width-down/46?cb=20230506021852",
+        "name": "Hehe! Don't Get Burned!",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Ability_Hey%21_Remember_Hook%3F.png/revision/latest/scale-to-width-down/46?cb=20230506021850",
+        "name": "Hey! Remember Hook?",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            120,
+            132,
+            144,
+            156,
+            168,
+            180,
+            195,
+            210,
+            225,
+            240,
+            252,
+            264
+          ],
+          [
+            25,
+            27.5,
+            30,
+            32.5,
+            35,
+            38.75,
+            43.75,
+            50,
+            57.5,
+            65,
+            68.25,
+            71.5
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          [
+            140,
+            154,
+            168,
+            182,
+            196,
+            210,
+            227.5,
+            245,
+            262.5,
+            280,
+            294,
+            308
+          ],
+          [
+            40,
+            44,
+            48,
+            52,
+            56,
+            60,
+            65,
+            70,
+            75,
+            80,
+            84,
+            88
+          ],
+          [
+            25,
+            27.5,
+            30,
+            32.5,
+            35,
+            38.75,
+            43.75,
+            50,
+            57.5,
+            65,
+            68.25,
+            71.5
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/da/Ability_Boom%21_Here_Comes_the_Fire%21.png/revision/latest/scale-to-width-down/46?cb=20230506021857",
+        "name": "Boom! Here Comes the Fire!",
+        "type": "Ultimate",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            240,
+            256,
+            272,
+            288,
+            304,
+            320,
+            340,
+            360,
+            380,
+            400,
+            416,
+            432
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Ability_Ha%21_Oil_to_the_Flames%21.png/revision/latest/scale-to-width-down/46?cb=20230506021853",
+        "name": "Ha! Oil to the Flames!",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            81.25,
+            87.5,
+            93.75,
+            100,
+            105,
+            110
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Character_Huohuo_Icon.png/revision/latest/scale-to-width-down/40?cb=20231209094156",
+    "name": "Huohuo",
+    "rarity": 5,
+    "path": "Abundance",
+    "damageType": "Wind",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f5/Ability_Banner_Stormcaller.png/revision/latest/scale-to-width-down/46?cb=20231115023341",
+        "name": "Banner: Stormcaller",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            25,
+            30,
+            35,
+            40,
+            45,
+            50,
+            55
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f3/Ability_Talisman_Protection.png/revision/latest/scale-to-width-down/46?cb=20231115023340",
+        "name": "Talisman: Protection",
+        "type": "Skill",
+        "tag": "Restore",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            14,
+            14.875,
+            15.75,
+            16.625,
+            17.5,
+            18.2,
+            18.9,
+            19.6,
+            20.3,
+            21,
+            21.7,
+            22.4
+          ],
+          [
+            140,
+            224,
+            287,
+            350,
+            392,
+            434,
+            465.5,
+            497,
+            528.5,
+            560,
+            591.5,
+            623
+          ],
+          [
+            11.2,
+            11.9,
+            12.6,
+            13.3,
+            14,
+            14.56,
+            15.12,
+            15.68,
+            16.24,
+            16.8,
+            17.36,
+            17.92
+          ],
+          [
+            112,
+            179.2,
+            229.6,
+            280,
+            313.6,
+            347.2,
+            372.4,
+            397.6,
+            422.8,
+            448,
+            473.2,
+            498.4
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/27/Ability_Tail_Spiritual_Domination.png/revision/latest/scale-to-width-down/46?cb=20231115023346",
+        "name": "Tail: Spiritual Domination",
+        "type": "Ultimate",
+        "tag": "Support",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            15,
+            15.5,
+            16,
+            16.5,
+            17,
+            17.5,
+            18.125,
+            18.75,
+            19.375,
+            20,
+            20.5,
+            21
+          ],
+          [
+            24,
+            25.6,
+            27.2,
+            28.8,
+            30.4,
+            32,
+            34,
+            36,
+            38,
+            40,
+            41.6,
+            43.2
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/35/Ability_Possession_Ethereal_Metaflow.png/revision/latest/scale-to-width-down/46?cb=20231115023345",
+        "name": "Possession: Ethereal Metaflow",
+        "type": "Talent",
+        "tag": "Restore",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            3,
+            3.1875,
+            3.375,
+            3.5625,
+            3.75,
+            3.9,
+            4.05,
+            4.2,
+            4.35,
+            4.5,
+            4.65,
+            4.8
+          ],
+          [
+            30,
+            48,
+            61.5,
+            75,
+            84,
+            93,
+            99.75,
+            106.5,
+            113.25,
+            120,
+            126.75,
+            133.5
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/88/Character_Jing_Yuan_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081207",
+    "name": "Jing Yuan",
+    "rarity": 5,
+    "path": "Erudition",
+    "damageType": "Lightning",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/84/Ability_Glistening_Light.png/revision/latest/scale-to-width-down/46?cb=20230211193616",
+        "name": "Glistening Light",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8f/Ability_Rifting_Zenith.png/revision/latest/scale-to-width-down/46?cb=20230211193731",
+        "name": "Rifting Zenith",
+        "type": "Skill",
+        "tag": "AoE",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            81.25,
+            87.5,
+            93.75,
+            100,
+            105,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/30/Ability_Lightbringer.png/revision/latest/scale-to-width-down/46?cb=20230211193702",
+        "name": "Lightbringer",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            120,
+            128,
+            136,
+            144,
+            152,
+            160,
+            170,
+            180,
+            190,
+            200,
+            208,
+            216
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2a/Ability_Prana_Extirpated.png/revision/latest/scale-to-width-down/46?cb=20230211193725",
+        "name": "Prana Extirpated",
+        "type": "Talent",
+        "tag": "Bounce",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            33,
+            36.3,
+            39.6,
+            42.9,
+            46.2,
+            49.5,
+            53.625,
+            57.75,
+            61.875,
+            66,
+            69.3,
+            72.6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f9/Character_Jingliu_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081213",
+    "name": "Jingliu",
+    "rarity": 5,
+    "path": "Destruction",
+    "damageType": "Ice",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/98/Ability_Lucent_Moonglow.png/revision/latest/scale-to-width-down/46?cb=20231011021419",
+        "name": "Lucent Moonglow",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ee/Ability_Moon_On_Glacial_River.png/revision/latest/scale-to-width-down/46?cb=20231011021421",
+        "name": "Moon On Glacial River",
+        "type": "Skill",
+        "tag": "Blast",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            125,
+            137.5,
+            150,
+            162.5,
+            175,
+            187.5,
+            203.125,
+            218.75,
+            234.375,
+            250,
+            262.5,
+            275
+          ],
+          [
+            62.5,
+            68.75,
+            75,
+            81.25,
+            87.5,
+            93.75,
+            101.5625,
+            109.375,
+            117.1875,
+            125,
+            131.25,
+            137.5
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Ability_Transcendent_Flash.png/revision/latest/scale-to-width-down/46?cb=20231011021424",
+        "name": "Transcendent Flash",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            100,
+            110,
+            120,
+            130,
+            140,
+            150,
+            162.5,
+            175,
+            187.5,
+            200,
+            210,
+            220
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6c/Ability_Florephemeral_Dreamflux.png/revision/latest/scale-to-width-down/46?cb=20231011021417",
+        "name": "Florephemeral Dreamflux",
+        "type": "Ultimate",
+        "tag": "Blast",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            180,
+            192,
+            204,
+            216,
+            228,
+            240,
+            255,
+            270,
+            285,
+            300,
+            312,
+            324
+          ],
+          [
+            90,
+            96,
+            102,
+            108,
+            114,
+            120,
+            127.5,
+            135,
+            142.5,
+            150,
+            156,
+            162
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2f/Ability_Crescent_Transmigration.png/revision/latest/scale-to-width-down/46?cb=20231011021415",
+        "name": "Crescent Transmigration",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            90,
+            99,
+            108,
+            117,
+            126,
+            135,
+            146.25,
+            157.5,
+            168.75,
+            180,
+            189,
+            198
+          ],
+          [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46.25,
+            47.5,
+            48.75,
+            50,
+            51,
+            52
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8c/Character_Kafka_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081234",
+    "name": "Kafka",
+    "rarity": 5,
+    "path": "Nihility",
+    "damageType": "Lightning",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/ce/Ability_Midnight_Tumult.png/revision/latest/scale-to-width-down/46?cb=20230611053834",
+        "name": "Midnight Tumult",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/04/Ability_Caressing_Moonlight.png/revision/latest/scale-to-width-down/46?cb=20230611053840",
+        "name": "Caressing Moonlight",
+        "type": "Skill",
+        "tag": "Blast",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            80,
+            88,
+            96,
+            104,
+            112,
+            120,
+            130,
+            140,
+            150,
+            160,
+            168,
+            176
+          ],
+          [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48.75,
+            52.5,
+            56.25,
+            60,
+            63,
+            66
+          ],
+          [
+            60,
+            61.5,
+            63,
+            64.5,
+            66,
+            67.5,
+            69.375,
+            71.25,
+            73.125,
+            75,
+            76.5,
+            78
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ee/Ability_Twilight_Trill.png/revision/latest/scale-to-width-down/46?cb=20230611053836",
+        "name": "Twilight Trill",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            48,
+            51.2,
+            54.4,
+            57.6,
+            60.8,
+            64,
+            68,
+            72,
+            76,
+            80,
+            83.2,
+            86.4
+          ],
+          [
+            80,
+            82,
+            84,
+            86,
+            88,
+            90,
+            92.5,
+            95,
+            97.5,
+            100,
+            102,
+            104
+          ],
+          [
+            116,
+            126.875,
+            137.75,
+            148.625,
+            159.5,
+            175.8125,
+            197.5625,
+            224.75,
+            257.375,
+            290,
+            304.1375,
+            318.275
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0a/Ability_Gentle_but_Cruel.png/revision/latest/scale-to-width-down/46?cb=20230805063334",
+        "name": "Gentle but Cruel",
+        "type": "Talent",
+        "tag": "Single Target",
+        "energyGeneration": 10,
+        "scalling": [
+          [
+            42,
+            51.8,
+            61.6,
+            71.4,
+            81.2,
+            91,
+            103.25,
+            115.5,
+            127.75,
+            140,
+            149.8,
+            159.6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c7/Character_Luka_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081255",
+    "name": "Luka",
+    "rarity": 4,
+    "path": "Nihility",
+    "damageType": "Physical",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6c/Ability_Direct_Punch.png/revision/latest/scale-to-width-down/46?cb=20230809032438",
+        "name": "Direct Punch",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5d/Ability_Sky-Shatter_Fist.png/revision/latest/scale-to-width-down/46?cb=20230809032436",
+        "name": "Sky-Shatter Fist",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22
+          ],
+          [
+            40,
+            48,
+            56,
+            64,
+            72,
+            80,
+            88
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f2/Ability_Lacerating_Fist.png/revision/latest/scale-to-width-down/46?cb=20230809032442",
+        "name": "Lacerating Fist",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            60,
+            66,
+            72,
+            78,
+            84,
+            90,
+            97.5,
+            105,
+            112.5,
+            120,
+            126,
+            132
+          ],
+          [
+            130,
+            143,
+            156,
+            169,
+            182,
+            201.5,
+            227.5,
+            260,
+            299,
+            338,
+            354.9,
+            371.8
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7d/Ability_Coup_de_Gr%C3%A2ce.png/revision/latest/scale-to-width-down/46?cb=20230809032433",
+        "name": "Coup de Grâce",
+        "type": "Ultimate",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            12,
+            12.8,
+            13.6,
+            14.4,
+            15.2,
+            16,
+            17,
+            18,
+            19,
+            20,
+            20.8,
+            21.6
+          ],
+          [
+            198,
+            211.2,
+            224.4,
+            237.6,
+            250.8,
+            264,
+            280.5,
+            297,
+            313.5,
+            330,
+            343.2,
+            356.4
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f8/Ability_Flying_Sparks.png/revision/latest/scale-to-width-down/46?cb=20230809032435",
+        "name": "Flying Sparks",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            68,
+            69.7,
+            71.4,
+            73.1,
+            74.8,
+            76.5,
+            78.625,
+            80.75,
+            82.875,
+            85,
+            86.7,
+            88.4
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/20/Character_Luocha_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081416",
+    "name": "Luocha",
+    "rarity": 5,
+    "path": "Abundance",
+    "damageType": "Imaginary",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7e/Ability_Thorns_of_the_Abyss.png/revision/latest/scale-to-width-down/46?cb=20230626040202",
+        "name": "Thorns of the Abyss",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/14/Ability_Prayer_of_Abyss_Flower.png/revision/latest/scale-to-width-down/46?cb=20230611062220",
+        "name": "Prayer of Abyss Flower",
+        "type": "Skill",
+        "tag": "Restore",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            40,
+            42.5,
+            45,
+            47.5,
+            50,
+            52,
+            54,
+            56,
+            58,
+            60,
+            62,
+            64
+          ],
+          [
+            200,
+            320,
+            410,
+            500,
+            560,
+            620,
+            665,
+            710,
+            755,
+            800,
+            845,
+            890
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Ability_Death_Wish.png/revision/latest/scale-to-width-down/46?cb=20230611062214",
+        "name": "Death Wish",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            120,
+            128,
+            136,
+            144,
+            152,
+            160,
+            170,
+            180,
+            190,
+            200,
+            208,
+            216
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e5/Ability_Cycle_of_Life.png/revision/latest/scale-to-width-down/46?cb=20230611062216",
+        "name": "Cycle of Life",
+        "type": "Talent",
+        "tag": "Restore",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            12,
+            12.75,
+            13.5,
+            14.25,
+            15,
+            15.6,
+            16.2,
+            16.8,
+            17.4,
+            18,
+            18.6,
+            19.2
+          ],
+          [
+            60,
+            96,
+            123,
+            150,
+            168,
+            186,
+            199.5,
+            213,
+            226.5,
+            240,
+            253.5,
+            267
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6c/Character_Lynx_Icon.png/revision/latest/scale-to-width-down/40?cb=20231031113034",
+    "name": "Lynx",
+    "rarity": 4,
+    "path": "Abundance",
+    "damageType": "Quantum",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/00/Ability_Ice_Crampon_Technique.png/revision/latest/scale-to-width-down/46?cb=20230920035841",
+        "name": "Ice Crampon Technique",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            25,
+            30,
+            35,
+            40,
+            45,
+            50,
+            55
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bf/Ability_Salted_Camping_Cans.png/revision/latest/scale-to-width-down/46?cb=20230920035845",
+        "name": "Salted Camping Cans",
+        "type": "Skill",
+        "tag": "Restore",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            5,
+            5.25,
+            5.5,
+            5.75,
+            6,
+            6.25,
+            6.5625,
+            6.875,
+            7.1875,
+            7.5,
+            7.75,
+            8
+          ],
+          [
+            50,
+            80,
+            102.5,
+            125,
+            140,
+            155,
+            166.25,
+            177.5,
+            188.75,
+            200,
+            211.25,
+            222.5
+          ],
+          [
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.4,
+            10.8,
+            11.2,
+            11.6,
+            12,
+            12.4,
+            12.8
+          ],
+          [
+            80,
+            128,
+            164,
+            200,
+            224,
+            248,
+            266,
+            284,
+            302,
+            320,
+            338,
+            356
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Ability_Snowfield_First_Aid.png/revision/latest/scale-to-width-down/46?cb=20230920035846",
+        "name": "Snowfield First Aid",
+        "type": "Ultimate",
+        "tag": "Restore",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            9,
+            9.5625,
+            10.125,
+            10.6875,
+            11.25,
+            11.7,
+            12.15,
+            12.6,
+            13.05,
+            13.5,
+            13.95,
+            14.4
+          ],
+          [
+            90,
+            144,
+            184.5,
+            225,
+            252,
+            279,
+            299.25,
+            319.5,
+            339.75,
+            360,
+            380.25,
+            400.5
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Ability_Outdoor_Survival_Experience.png/revision/latest/scale-to-width-down/46?cb=20230920035843",
+        "name": "Outdoor Survival Experience",
+        "type": "Talent",
+        "tag": "Restore",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            2.4,
+            2.55,
+            2.7,
+            2.85,
+            3,
+            3.12,
+            3.24,
+            3.36,
+            3.48,
+            3.6,
+            3.72,
+            3.84
+          ],
+          [
+            24,
+            38.4,
+            49.2,
+            60,
+            67.2,
+            74.4,
+            79.8,
+            85.2,
+            90.6,
+            96,
+            101.4,
+            106.8
+          ],
+          [
+            3,
+            3.1875,
+            3.375,
+            3.5625,
+            3.75,
+            3.9,
+            4.05,
+            4.2,
+            4.35,
+            4.5,
+            4.65,
+            4.8
+          ],
+          [
+            30,
+            48,
+            61.5,
+            75,
+            84,
+            93,
+            99.75,
+            106.5,
+            113.25,
+            120,
+            126.75,
+            133.5
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d3/Character_March_7th_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081458",
+    "name": "March 7th",
+    "rarity": 4,
+    "path": "Preservation",
+    "damageType": "Ice",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2d/Ability_Frigid_Cold_Arrow.png/revision/latest/scale-to-width-down/46?cb=20230516042623",
+        "name": "Frigid Cold Arrow",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Ability_The_Power_of_Cuteness.png/revision/latest/scale-to-width-down/46?cb=20230516042721",
+        "name": "The Power of Cuteness",
+        "type": "Skill",
+        "tag": "Defense",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            38,
+            40.375,
+            42.75,
+            45.125,
+            47.5,
+            49.4,
+            51.3,
+            53.2,
+            55.1,
+            57,
+            58.9,
+            60.8
+          ],
+          [
+            190,
+            304,
+            389.5,
+            475,
+            532,
+            589,
+            631.75,
+            674.5,
+            717.25,
+            760,
+            802.75,
+            845.5
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/da/Ability_Glacial_Cascade.png/revision/latest/scale-to-width-down/46?cb=20230505112720",
+        "name": "Glacial Cascade",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            90,
+            96,
+            102,
+            108,
+            114,
+            120,
+            127.5,
+            135,
+            142.5,
+            150,
+            156,
+            162
+          ],
+          [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48.75,
+            52.5,
+            56.25,
+            60,
+            63,
+            66
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Ability_Girl_Power.png/revision/latest/scale-to-width-down/46?cb=20230516042744",
+        "name": "Girl Power",
+        "type": "Talent",
+        "tag": "Single Target",
+        "energyGeneration": 10,
+        "scalling": [
+          [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            81.25,
+            87.5,
+            93.75,
+            100,
+            105,
+            110
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4d/Character_Misha_Icon.png/revision/latest/scale-to-width-down/40?cb=20240206104846",
+    "name": "Misha",
+    "rarity": 4,
+    "path": "Destruction",
+    "damageType": "Ice",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2f/Ability_E%E2%80%94Excuse_Me%2C_Please%21.png/revision/latest/scale-to-width-down/46?cb=20240206014019",
+        "name": "E—Excuse Me, Please!",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c7/Ability_R%E2%80%94Room_Service.png/revision/latest/scale-to-width-down/46?cb=20240206014024",
+        "name": "R—Room Service",
+        "type": "Skill",
+        "tag": "Blast",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            100,
+            110,
+            120,
+            130,
+            140,
+            150,
+            162.5,
+            175,
+            187.5,
+            200,
+            210,
+            220
+          ],
+          [
+            40,
+            44,
+            48,
+            52,
+            56,
+            60,
+            65,
+            70,
+            75,
+            80,
+            84,
+            88
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/79/Ability_G%E2%80%94Gonna_Be_Late%21.png/revision/latest/scale-to-width-down/46?cb=20240206014020",
+        "name": "G—Gonna Be Late!",
+        "type": "Ultimate",
+        "tag": "Bounce",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            36,
+            38.4,
+            40.8,
+            43.2,
+            45.6,
+            48,
+            51,
+            54,
+            57,
+            60,
+            62.4,
+            64.8
+          ],
+          [
+            12,
+            12.8,
+            13.6,
+            14.4,
+            15.2,
+            16,
+            17,
+            18,
+            19,
+            20,
+            20.8,
+            21.6
+          ],
+          [
+            18,
+            19.2,
+            20.4,
+            21.6,
+            22.8,
+            24,
+            25.5,
+            27,
+            28.5,
+            30,
+            31.2,
+            32.4
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/93/Ability_Horological_Escapement.png/revision/latest/scale-to-width-down/46?cb=20240206014022",
+        "name": "Horological Escapement",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            1,
+            1.1,
+            1.2,
+            1.3,
+            1.4,
+            1.5,
+            1.625,
+            1.75,
+            1.875,
+            2,
+            2.1,
+            2.2
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/61/Character_Natasha_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081534",
+    "name": "Natasha",
+    "rarity": 4,
+    "path": "Abundance",
+    "damageType": "Physical",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b8/Ability_Behind_the_Kindness.png/revision/latest/scale-to-width-down/46?cb=20230516025110",
+        "name": "Behind the Kindness",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/41/Ability_Love%2C_Heal%2C_and_Choose.png/revision/latest/scale-to-width-down/46?cb=20230516025238",
+        "name": "Love, Heal, and Choose",
+        "type": "Skill",
+        "tag": "Restore",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            7,
+            7.4375,
+            7.875,
+            8.3125,
+            8.75,
+            9.1,
+            9.45,
+            9.8,
+            10.15,
+            10.5,
+            10.85,
+            11.2
+          ],
+          [
+            70,
+            112,
+            143.5,
+            175,
+            196,
+            217,
+            232.75,
+            248.5,
+            264.25,
+            280,
+            295.75,
+            311.5
+          ],
+          [
+            4.8,
+            5.1,
+            5.4,
+            5.7,
+            6,
+            6.24,
+            6.48,
+            6.72,
+            6.96,
+            7.2,
+            7.44,
+            7.68
+          ],
+          [
+            48,
+            76.8,
+            98.4,
+            120,
+            134.4,
+            148.8,
+            159.6,
+            170.4,
+            181.2,
+            192,
+            202.8,
+            213.6
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f4/Ability_Gift_of_Rebirth.png/revision/latest/scale-to-width-down/46?cb=20230505001355",
+        "name": "Gift of Rebirth",
+        "type": "Ultimate",
+        "tag": "Restore",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            9.2,
+            9.775,
+            10.35,
+            10.925,
+            11.5,
+            11.96,
+            12.42,
+            12.88,
+            13.34,
+            13.8,
+            14.26,
+            14.72
+          ],
+          [
+            92,
+            147.2,
+            188.6,
+            230,
+            257.6,
+            285.2,
+            305.9,
+            326.6,
+            347.3,
+            368,
+            388.7,
+            409.4
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4c/Ability_Innervation.png/revision/latest/scale-to-width-down/46?cb=20230516025205",
+        "name": "Innervation",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            25,
+            27.5,
+            30,
+            32.5,
+            35,
+            37.5,
+            40.625,
+            43.75,
+            46.875,
+            50,
+            52.5,
+            55
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Character_Pela_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081559",
+    "name": "Pela",
+    "rarity": 4,
+    "path": "Nihility",
+    "damageType": "Ice",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/17/Ability_Frost_Shot.png/revision/latest/scale-to-width-down/46?cb=20230516040156",
+        "name": "Frost Shot",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/34/Ability_Frostbite.png/revision/latest/scale-to-width-down/46?cb=20230516040316",
+        "name": "Frostbite",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            105,
+            115.5,
+            126,
+            136.5,
+            147,
+            157.5,
+            170.625,
+            183.75,
+            196.875,
+            210,
+            220.5,
+            231
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/81/Ability_Zone_Suppression.png/revision/latest/scale-to-width-down/46?cb=20230506065837",
+        "name": "Zone Suppression",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            60,
+            64,
+            68,
+            72,
+            76,
+            80,
+            85,
+            90,
+            95,
+            100,
+            104,
+            108
+          ],
+          [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36.24,
+            37.5,
+            38.75,
+            40,
+            41,
+            42
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bd/Ability_Data_Collecting.png/revision/latest/scale-to-width-down/46?cb=20230516040508",
+        "name": "Data Collecting",
+        "type": "Talent",
+        "tag": "Support",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8.125,
+            8.75,
+            9.375,
+            10,
+            10.5,
+            11
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2e/Character_Qingque_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081644",
+    "name": "Qingque",
+    "rarity": 4,
+    "path": "Erudition",
+    "damageType": "Quantum",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/ae/Ability_Flower_Pick.png/revision/latest/scale-to-width-down/46?cb=20230506061848",
+        "name": "Flower Pick",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/52/Ability_Cherry_on_Top%21.png/revision/latest/scale-to-width-down/46?cb=20230506061854",
+        "name": "Cherry on Top!",
+        "type": "Basic ATK",
+        "tag": "Blast",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            120,
+            144,
+            168,
+            192,
+            216,
+            240,
+            264
+          ],
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6c/Ability_A_Scoop_of_Moon.png/revision/latest/scale-to-width-down/46?cb=20230506061850",
+        "name": "A Scoop of Moon",
+        "type": "Skill",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            14,
+            15.4,
+            16.8,
+            18.2,
+            19.6,
+            21,
+            22.75,
+            24.5,
+            26.25,
+            28,
+            29.4,
+            30.8
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/18/Ability_A_Quartet%3F_Woo-hoo%21.png/revision/latest/scale-to-width-down/46?cb=20230506061846",
+        "name": "A Quartet? Woo-hoo!",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            120,
+            128,
+            136,
+            144,
+            152,
+            160,
+            170,
+            180,
+            190,
+            200,
+            208,
+            216
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Ability_Celestial_Jade.png/revision/latest/scale-to-width-down/46?cb=20230506061852",
+        "name": "Celestial Jade",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            36,
+            39.6,
+            43.2,
+            46.8,
+            50.4,
+            54,
+            58.5,
+            63,
+            67.5,
+            72,
+            75.6,
+            79.2
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Character_Ruan_Mei_Icon.png/revision/latest/scale-to-width-down/40?cb=20231227130539",
+    "name": "Ruan Mei",
+    "rarity": 5,
+    "path": "Harmony",
+    "damageType": "Ice",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Ability_Threading_Fragrance.png/revision/latest/scale-to-width-down/46?cb=20231227021005",
+        "name": "Threading Fragrance",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Ability_String_Sings_Slow_Swirls.png/revision/latest/scale-to-width-down/46?cb=20231227021004",
+        "name": "String Sings Slow Swirls",
+        "type": "Skill",
+        "tag": "Support",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            16,
+            17.6,
+            19.2,
+            20.8,
+            22.4,
+            24,
+            26,
+            28,
+            30,
+            32,
+            33.6,
+            35.2
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/71/Ability_Petals_to_Stream%2C_Repose_in_Dream.png/revision/latest/scale-to-width-down/46?cb=20231227020958",
+        "name": "Petals to Stream, Repose in Dream",
+        "type": "Ultimate",
+        "tag": "Support",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21.25,
+            22.5,
+            23.75,
+            25,
+            26,
+            27
+          ],
+          [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42.5,
+            45,
+            47.5,
+            50,
+            52,
+            54
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Ability_Somatotypical_Helix.png/revision/latest/scale-to-width-down/46?cb=20231227021002",
+        "name": "Somatotypical Helix",
+        "type": "Talent",
+        "tag": "Support",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            8,
+            8.2,
+            8.4,
+            8.6,
+            8.8,
+            9,
+            9.25,
+            9.5,
+            9.75,
+            10,
+            10.2,
+            10.4
+          ],
+          [
+            60,
+            66,
+            72,
+            78,
+            84,
+            90,
+            97.5,
+            105,
+            112.5,
+            120,
+            126,
+            132
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/53/Character_Sampo_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081700",
+    "name": "Sampo",
+    "rarity": 4,
+    "path": "Nihility",
+    "damageType": "Wind",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/81/Ability_Dazzling_Blades.png/revision/latest/scale-to-width-down/46?cb=20230504215834",
+        "name": "Dazzling Blades",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Ability_Ricochet_Love.png/revision/latest/scale-to-width-down/46?cb=20230504215832",
+        "name": "Ricochet Love",
+        "type": "Skill",
+        "tag": "Bounce",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            28,
+            30.8,
+            33.6,
+            36.4,
+            39.2,
+            42,
+            45.5,
+            49,
+            52.5,
+            56,
+            58.8,
+            61.6
+          ],
+          [
+            28,
+            30.8,
+            33.6,
+            36.4,
+            39.2,
+            42,
+            45.5,
+            49,
+            52.5,
+            56,
+            58.8,
+            61.6
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e4/Ability_Surprise_Present.png/revision/latest/scale-to-width-down/46?cb=20230504215830",
+        "name": "Surprise Present",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            96,
+            102.4,
+            108.8,
+            115.2,
+            121.6,
+            128,
+            136,
+            144,
+            152,
+            160,
+            166.4,
+            172.8
+          ],
+          [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26.25,
+            27.5,
+            28.75,
+            30,
+            31,
+            32
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/70/Ability_Windtorn_Dagger.png/revision/latest/scale-to-width-down/46?cb=20230504215836",
+        "name": "Windtorn Dagger",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            20,
+            22,
+            24,
+            26,
+            28,
+            31,
+            35,
+            40,
+            46,
+            52,
+            54.6,
+            57.2
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9a/Character_Seele_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081718",
+    "name": "Seele",
+    "rarity": 5,
+    "path": "TheHunt",
+    "damageType": "Quantum",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Ability_Thwack.png/revision/latest/scale-to-width-down/46?cb=20230514151742",
+        "name": "Thwack",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/ac/Ability_Sheathed_Blade.png/revision/latest/scale-to-width-down/46?cb=20230514151751",
+        "name": "Sheathed Blade",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            110,
+            121,
+            132,
+            143,
+            154,
+            165,
+            178.75,
+            192.5,
+            206.25,
+            220,
+            231,
+            242
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3f/Ability_Butterfly_Flurry.png/revision/latest/scale-to-width-down/46?cb=20230213093318",
+        "name": "Butterfly Flurry",
+        "type": "Ultimate",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            255,
+            272,
+            289,
+            306,
+            323,
+            340,
+            361.25,
+            382.5,
+            403.75,
+            425,
+            442,
+            459
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b1/Ability_Resurgence.png/revision/latest/scale-to-width-down/46?cb=20230514151801",
+        "name": "Resurgence",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            40,
+            44,
+            48,
+            52,
+            56,
+            60,
+            65,
+            70,
+            75,
+            80,
+            84,
+            88
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7c/Character_Serval_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081736",
+    "name": "Serval",
+    "rarity": 4,
+    "path": "Erudition",
+    "damageType": "Lightning",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Ability_Roaring_Thunderclap.png/revision/latest/scale-to-width-down/46?cb=20230211193733",
+        "name": "Roaring Thunderclap",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Ability_Lightning_Flash.png/revision/latest/scale-to-width-down/46?cb=20230211193703",
+        "name": "Lightning Flash",
+        "type": "Skill",
+        "tag": "Blast",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            70,
+            77,
+            84,
+            91,
+            98,
+            105,
+            113.75,
+            122.5,
+            131.25,
+            140,
+            147,
+            154
+          ],
+          [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48.75,
+            52.5,
+            56.25,
+            60,
+            63,
+            66
+          ],
+          [
+            40,
+            44,
+            48,
+            52,
+            56,
+            62,
+            70,
+            80,
+            92,
+            104,
+            109.2,
+            114.4
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Ability_Here_Comes_the_Mechanical_Fever.png/revision/latest/scale-to-width-down/46?cb=20230211193625",
+        "name": "Here Comes the Mechanical Fever",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            108,
+            115.2,
+            122.4,
+            129.6,
+            136.8,
+            144,
+            153,
+            162,
+            171,
+            180,
+            187.2,
+            194.4
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a1/Ability_Galvanic_Chords.png/revision/latest/scale-to-width-down/46?cb=20230211193610",
+        "name": "Galvanic Chords",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            36,
+            39.6,
+            43.2,
+            46.8,
+            50.4,
+            54,
+            58.5,
+            63,
+            67.5,
+            72,
+            75.6,
+            79.2
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a3/Character_Silver_Wolf_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081754",
+    "name": "Silver Wolf",
+    "rarity": 5,
+    "path": "Nihility",
+    "damageType": "Quantum",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/ba/Ability_System_Warning.png/revision/latest/scale-to-width-down/46?cb=20230607083302",
+        "name": "System Warning",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1a/Ability_Allow_Changes%3F.png/revision/latest/scale-to-width-down/46?cb=20230607083255",
+        "name": "Allow Changes?",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81.25,
+            82.5,
+            83.75,
+            85,
+            86,
+            87
+          ],
+          [
+            7.5,
+            7.75,
+            8,
+            8.25,
+            8.5,
+            8.75,
+            9.0625,
+            9.375,
+            9.6875,
+            10,
+            10.25,
+            10.5
+          ],
+          [
+            98,
+            107.8,
+            117.6,
+            127.4,
+            137.2,
+            147,
+            159.25,
+            171.5,
+            183.75,
+            196,
+            205.8,
+            215.6
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0f/Ability_User_Banned.png/revision/latest/scale-to-width-down/46?cb=20230607083300",
+        "name": "User Banned",
+        "type": "Ultimate",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            85,
+            86.5,
+            88,
+            89.5,
+            91,
+            92.5,
+            94.375,
+            96.25,
+            98.125,
+            100,
+            101.5,
+            103
+          ],
+          [
+            36,
+            36.9,
+            37.8,
+            38.7,
+            39.6,
+            40.5,
+            41.625,
+            42.75,
+            43.875,
+            45,
+            45.9,
+            46.8
+          ],
+          [
+            228,
+            243.2,
+            258.4,
+            273.6,
+            288.8,
+            304,
+            323,
+            342,
+            361,
+            380,
+            395.2,
+            410.4
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Ability_Awaiting_System_Response....png/revision/latest/scale-to-width-down/46?cb=20230607083257",
+        "name": "Awaiting System Response...",
+        "type": "Talent",
+        "tag": "Impair",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8.125,
+            8.75,
+            9.375,
+            10,
+            10.5,
+            11
+          ],
+          [
+            4,
+            4.4,
+            4.8,
+            5.2,
+            5.6,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.4,
+            8.8
+          ],
+          [
+            3,
+            3.3,
+            3.6,
+            3.9,
+            4.2,
+            4.5,
+            4.875,
+            5.25,
+            5.625,
+            6,
+            6.3,
+            6.6
+          ],
+          [
+            60,
+            61.2,
+            62.4,
+            63.6,
+            64.8,
+            66,
+            67.5,
+            69,
+            70.5,
+            72,
+            73.2,
+            74.4
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6b/Character_Sparkle_Icon.png/revision/latest/scale-to-width-down/40?cb=20240326110835",
+    "name": "Sparkle",
+    "rarity": 5,
+    "path": "Harmony",
+    "damageType": "Quantum",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d8/Ability_Monodrama.png/revision/latest/scale-to-width-down/46?cb=20240229094703",
+        "name": "Monodrama",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Ability_Dreamdiver.png/revision/latest/scale-to-width-down/46?cb=20240229094701",
+        "name": "Dreamdiver",
+        "type": "Skill",
+        "tag": "Support",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            12,
+            13.2,
+            14.4,
+            15.6,
+            16.8,
+            18,
+            19.5,
+            21,
+            22.5,
+            24,
+            25.2,
+            26.4
+          ],
+          [
+            27,
+            28.8,
+            30.6,
+            32.4,
+            34.2,
+            36,
+            38.25,
+            40.5,
+            42.75,
+            45,
+            46.8,
+            48.6
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0f/Ability_The_Hero_with_a_Thousand_Faces.png/revision/latest/scale-to-width-down/46?cb=20240229094706",
+        "name": "The Hero with a Thousand Faces",
+        "type": "Ultimate",
+        "tag": "Support",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            6,
+            6.4,
+            6.8,
+            7.2,
+            7.6,
+            8,
+            8.5,
+            9,
+            9.5,
+            10,
+            10.4,
+            10.8
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c0/Ability_Red_Herring.png/revision/latest/scale-to-width-down/46?cb=20240229094704",
+        "name": "Red Herring",
+        "type": "Talent",
+        "tag": "Support",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            3,
+            3.3,
+            3.6,
+            3.9,
+            4.2,
+            4.5,
+            4.875,
+            5.25,
+            5.625,
+            6,
+            6.3,
+            6.6
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/97/Character_Sushang_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081849",
+    "name": "Sushang",
+    "rarity": 4,
+    "path": "TheHunt",
+    "damageType": "Physical",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ef/Ability_Cloudfencer_Art_Starshine.png/revision/latest/scale-to-width-down/46?cb=20230505101742",
+        "name": "Cloudfencer Art: Starshine",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/91/Ability_Cloudfencer_Art_Mountainfall.png/revision/latest/scale-to-width-down/46?cb=20230505101741",
+        "name": "Cloudfencer Art: Mountainfall",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            105,
+            115.5,
+            126,
+            136.5,
+            147,
+            157.5,
+            170.625,
+            183.75,
+            196.875,
+            210,
+            220.5,
+            231
+          ],
+          [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            81.25,
+            87.5,
+            93.75,
+            100,
+            105,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Ability_Shape_of_Taixu_Dawn_Herald.png/revision/latest/scale-to-width-down/46?cb=20230505101737",
+        "name": "Shape of Taixu: Dawn Herald",
+        "type": "Ultimate",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            192,
+            204.8,
+            217.6,
+            230.4,
+            243.2,
+            256,
+            272,
+            288,
+            304,
+            320,
+            332.8,
+            345.6
+          ],
+          [
+            18,
+            19.2,
+            20.4,
+            21.6,
+            22.8,
+            24,
+            25.5,
+            27,
+            28.5,
+            30,
+            31.2,
+            32.4
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/40/Ability_Dancing_Blade.png/revision/latest/scale-to-width-down/46?cb=20230505101744",
+        "name": "Dancing Blade",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            15,
+            15.5,
+            16,
+            16.5,
+            17,
+            17.5,
+            18.125,
+            18.75,
+            19.375,
+            20,
+            20.5,
+            21
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Character_Tingyun_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723081906",
+    "name": "Tingyun",
+    "rarity": 4,
+    "path": "Harmony",
+    "damageType": "Lightning",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/64/Ability_Dislodged.png/revision/latest/scale-to-width-down/46?cb=20240131040657",
+        "name": "Dislodged",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d3/Ability_Soothing_Melody.png/revision/latest/scale-to-width-down/46?cb=20240131040839",
+        "name": "Soothing Melody",
+        "type": "Skill",
+        "tag": "Support",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            25,
+            27.5,
+            30,
+            32.5,
+            35,
+            37.5,
+            40.625,
+            43.75,
+            46.875,
+            50,
+            52.5,
+            55
+          ],
+          [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21.25,
+            22.5,
+            23.75,
+            25,
+            26,
+            27
+          ],
+          [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32.5,
+            35,
+            37.5,
+            40,
+            42,
+            44
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f7/Ability_Amidst_the_Rejoicing_Clouds.png/revision/latest/scale-to-width-down/46?cb=20230211193732",
+        "name": "Amidst the Rejoicing Clouds",
+        "type": "Ultimate",
+        "tag": "Support",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            20,
+            23,
+            26,
+            29,
+            32,
+            35,
+            38.75,
+            42.5,
+            46.25,
+            50,
+            53,
+            56
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Ability_Violet_Sparknado.png/revision/latest/scale-to-width-down/46?cb=20240131041006",
+        "name": "Violet Sparknado",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48.75,
+            52.5,
+            56.25,
+            60,
+            63,
+            66
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d8/Character_Topaz_and_Numby_Icon.png/revision/latest/scale-to-width-down/40?cb=20231030000030",
+    "name": "Topaz and Numby",
+    "rarity": 5,
+    "path": "TheHunt",
+    "damageType": "Fire",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3e/Ability_Deficit....png/revision/latest/scale-to-width-down/46?cb=20231027041927",
+        "name": "Deficit...",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Ability_Difficulty_Paying.png/revision/latest/scale-to-width-down/46?cb=20231027041930",
+        "name": "Difficulty Paying?",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            75,
+            82.5,
+            90,
+            97.5,
+            105,
+            112.5,
+            121.875,
+            131.25,
+            140.625,
+            150,
+            157.5,
+            165
+          ],
+          [
+            25,
+            27.5,
+            30,
+            32.5,
+            35,
+            37.5,
+            40.625,
+            43.75,
+            46.875,
+            50,
+            52.5,
+            55
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Ability_Turn_a_Profit%21.png/revision/latest/scale-to-width-down/46?cb=20231027041925",
+        "name": "Turn a Profit!",
+        "type": "Ultimate",
+        "tag": "Enhance",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            75,
+            82.5,
+            90,
+            97.5,
+            105,
+            112.5,
+            121.875,
+            131.25,
+            140.625,
+            150,
+            157.5,
+            165
+          ],
+          [
+            12.5,
+            13.75,
+            15,
+            16.25,
+            17.5,
+            18.75,
+            20.3125,
+            21.875,
+            23.4375,
+            25,
+            26.25,
+            27.5
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d1/Ability_Trotter_Market%21.png/revision/latest/scale-to-width-down/46?cb=20231027041934",
+        "name": "Trotter Market!?",
+        "type": "Talent",
+        "tag": "Single Target",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            75,
+            82.5,
+            90,
+            97.5,
+            105,
+            112.5,
+            121.875,
+            131.25,
+            140.625,
+            150,
+            157.5,
+            165
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/11/Character_Trailblazer_Icon.png/revision/latest/scale-to-width-down/40?cb=20240326131619",
+    "name": "Trailblazer",
+    "rarity": 5,
+    "path": "Adaptive",
+    "damageType": "Adaptive",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/76/Ability_Gravity_Suppression.png/revision/latest/scale-to-width-down/46?cb=20230516032341",
+        "name": "Gravity Suppression",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c5/Ability_Edge_of_the_Void.png/revision/latest/scale-to-width-down/46?cb=20230516032255",
+        "name": "Edge of the Void",
+        "type": "Skill",
+        "tag": "Bounce",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            36,
+            39.6,
+            43.2,
+            46.8,
+            50.4,
+            54,
+            58.5,
+            63,
+            67.5,
+            72,
+            75.6,
+            79.2
+          ],
+          [
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71.25,
+            72.5,
+            73.75,
+            75,
+            76,
+            77
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/23/Ability_Synthetic_Black_Hole.png/revision/latest/scale-to-width-down/46?cb=20230211193803",
+        "name": "Synthetic Black Hole",
+        "type": "Ultimate",
+        "tag": "AoE",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            90,
+            96,
+            102,
+            108,
+            114,
+            120,
+            127.5,
+            135,
+            142.5,
+            150,
+            156,
+            162
+          ],
+          [
+            32,
+            32.8,
+            33.6,
+            34.4,
+            35.2,
+            36,
+            37,
+            38,
+            39,
+            40,
+            40.8,
+            41.6
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/02/Ability_Time_Distortion.png/revision/latest/scale-to-width-down/46?cb=20230516032237",
+        "name": "Time Distortion",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48.75,
+            52.5,
+            56.25,
+            60,
+            63,
+            66
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/11/Character_Welt_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723082022",
+    "name": "Welt",
+    "rarity": 5,
+    "path": "Nihility",
+    "damageType": "Imaginary",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c3/Ability_Mara-Sunder_Awl.png/revision/latest/scale-to-width-down/46?cb=20231227021046",
+        "name": "Mara-Sunder Awl",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bb/Ability_Iniquity_Obliteration.png/revision/latest/scale-to-width-down/46?cb=20231227021043",
+        "name": "Iniquity Obliteration",
+        "type": "Skill",
+        "tag": "Blast",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            70,
+            77,
+            84,
+            91,
+            98,
+            105,
+            113.75,
+            122.5,
+            131.25,
+            140,
+            147,
+            154
+          ],
+          [
+            35,
+            38.5,
+            42,
+            45.5,
+            49,
+            52.5,
+            56.875,
+            61.25,
+            65.625,
+            70,
+            73.5,
+            77
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3f/Ability_Divine_Castigation.png/revision/latest/scale-to-width-down/46?cb=20231227021041",
+        "name": "Divine Castigation",
+        "type": "Ultimate",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            150,
+            160,
+            170,
+            180,
+            190,
+            200,
+            212.5,
+            225,
+            237.5,
+            250,
+            260,
+            270
+          ],
+          [
+            9,
+            9.6,
+            10.2,
+            10.8,
+            11.4,
+            12,
+            12.75,
+            13.5,
+            14.25,
+            15,
+            15.6,
+            16.2
+          ],
+          [
+            36,
+            38.4,
+            40.8,
+            43.2,
+            45.6,
+            48,
+            51,
+            54,
+            57,
+            60,
+            62.4,
+            64.8
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Ability_Karmic_Perpetuation.png/revision/latest/scale-to-width-down/46?cb=20231227021045",
+        "name": "Karmic Perpetuation",
+        "type": "Talent",
+        "tag": "Bounce",
+        "energyGeneration": 6,
+        "scalling": [
+          [
+            45,
+            49.5,
+            54,
+            58.5,
+            63,
+            67.5,
+            73.125,
+            78.75,
+            84.375,
+            90,
+            94.5,
+            99
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/23/Character_Xueyi_Icon.png/revision/latest/scale-to-width-down/40?cb=20231227130429",
+    "name": "Xueyi",
+    "rarity": 4,
+    "path": "Destruction",
+    "damageType": "Quantum",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/87/Ability_Frost_Thorn.png/revision/latest/scale-to-width-down/46?cb=20230516030109",
+        "name": "Frost Thorn",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d4/Ability_Darting_Ironthorn.png/revision/latest/scale-to-width-down/46?cb=20230516030137",
+        "name": "Darting Ironthorn",
+        "type": "Skill",
+        "tag": "Single Target",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            110,
+            121,
+            132,
+            143,
+            154,
+            165,
+            178.75,
+            192.5,
+            206.25,
+            220,
+            231,
+            242
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/83/Ability_Amidst_the_Raining_Bliss.png/revision/latest/scale-to-width-down/46?cb=20230505130903",
+        "name": "Amidst the Raining Bliss",
+        "type": "Ultimate",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42.5,
+            45,
+            47.5,
+            50,
+            52,
+            54
+          ],
+          [
+            210,
+            224,
+            238,
+            252,
+            266,
+            280,
+            297.5,
+            315,
+            332.5,
+            350,
+            364,
+            378
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b5/Ability_One_With_the_Sword.png/revision/latest/scale-to-width-down/46?cb=20230516030227",
+        "name": "One With the Sword",
+        "type": "Talent",
+        "tag": "Single Target",
+        "energyGeneration": 10,
+        "scalling": [
+          [
+            15,
+            15.5,
+            16,
+            16.5,
+            17,
+            17.5,
+            18.125,
+            18.75,
+            19.375,
+            20,
+            20.5,
+            21
+          ],
+          [
+            15,
+            16.5,
+            18,
+            19.5,
+            21,
+            22.5,
+            24.375,
+            26.25,
+            28.125,
+            30,
+            31.5,
+            33
+          ],
+          [
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56.25,
+            57.5,
+            58.75,
+            60,
+            61,
+            62
+          ],
+          [
+            25,
+            27.5,
+            30,
+            32.5,
+            35,
+            37.5,
+            40.625,
+            43.75,
+            46.875,
+            50,
+            52.5,
+            55
+          ],
+          [
+            25,
+            27.5,
+            30,
+            32.5,
+            35,
+            37.5,
+            40.625,
+            43.75,
+            46.875,
+            50,
+            52.5,
+            55
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/57/Character_Yanqing_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723082139",
+    "name": "Yanqing",
+    "rarity": 5,
+    "path": "TheHunt",
+    "damageType": "Ice",
+    "skills": [
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/75/Ability_Arrowslinger.png/revision/latest/scale-to-width-down/46?cb=20230628064939",
+        "name": "Arrowslinger",
+        "type": "Basic ATK",
+        "tag": "Single Target",
+        "energyGeneration": 20,
+        "scalling": [
+          [
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/95/Ability_Emboldening_Salvo.png/revision/latest/scale-to-width-down/46?cb=20230614102111",
+        "name": "Emboldening Salvo",
+        "type": "Skill",
+        "tag": "Support",
+        "energyGeneration": 30,
+        "scalling": [
+          [
+            40,
+            44,
+            48,
+            52,
+            56,
+            60,
+            65,
+            70,
+            75,
+            80,
+            84,
+            88
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1a/Ability_Diving_Kestrel.png/revision/latest/scale-to-width-down/46?cb=20230628070253",
+        "name": "Diving Kestrel",
+        "type": "Ultimate",
+        "tag": "Single Target",
+        "energyGeneration": 5,
+        "scalling": [
+          [
+            21,
+            21.7,
+            22.4,
+            23.1,
+            23.8,
+            24.5,
+            25.375,
+            26.25,
+            27.125,
+            28,
+            28.7,
+            29.4
+          ],
+          [
+            39,
+            41.6,
+            44.2,
+            46.8,
+            49.4,
+            52,
+            55.25,
+            58.5,
+            61.75,
+            65,
+            67.6,
+            70.2
+          ],
+          [
+            228,
+            243.2,
+            258.4,
+            273.6,
+            288.8,
+            304,
+            323,
+            342,
+            361,
+            380,
+            395.2,
+            410.4
+          ]
+        ]
+      },
+      {
+        "icon": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/10/Ability_Seven_Layers%2C_One_Arrow.png/revision/latest/scale-to-width-down/46?cb=20230614102108",
+        "name": "Seven Layers, One Arrow",
+        "type": "Talent",
+        "tag": "Enhance",
+        "energyGeneration": 0,
+        "scalling": [
+          [
+            40,
+            44,
+            48,
+            52,
+            56,
+            60,
+            65,
+            70,
+            75,
+            80,
+            84,
+            88
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "iconImage": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/32/Character_Yukong_Icon.png/revision/latest/scale-to-width-down/40?cb=20230723082209",
+    "name": "Yukong",
+    "rarity": 4,
+    "path": "Harmony",
+    "damageType": "Imaginary"
+  }
+]
