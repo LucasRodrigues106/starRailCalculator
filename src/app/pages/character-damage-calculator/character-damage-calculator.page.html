@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{character.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  @if (character) {
+  <div style="display: flex; width: 100%; align-items: center; justify-content: center; gap: 8px; padding: 10px;">
+
+    <div [ngStyle]="{'box-shadow': '0 3px 10px' + (character.rarity < 5 ? '#be29ec' : '#ffbf00')}"
+      style="border-radius: 10px; flex: 4; overflow: hidden;"
+      [ngStyle]="{'box-shadow': '0 3px 5px' + (character.rarity < 5 ? '#be29ec' : '#ffbf00'),'border': '1px solid' + (character.rarity < 5 ? '#be29ec' : '#ffbf00')}">
+      <img src="../../../assets/imagesCharacters/{{character.name ? character.name : 'Clara'}}.webp" alt="">
+    </div>
+    <div style="flex: 8; width: 100%;">
+      {{character.name}}
+    </div>
+
+  </div>
+
+
+  <div style="padding: 8px;">
+
+    @for (skill of character.skills; track $index) {
+
+    @if (skill.tag === 'Enhance') {
+    <br><br>Habilidade de Melhoria {{skill.type}}
+
+    }@else{
+
+    <br><br>{{skill.name}} {{skill.tag}} {{skill.type}}
+
+    @for (scalling of skill.scalling; track $index) {
+    <br>{{$index}} - {{scalling}}
+    }
+
+    }
+
+
+    }
+  </div>
+
+  }@else{
+
+  <app-page-not-found></app-page-not-found>
+  }
+
+</ion-content>

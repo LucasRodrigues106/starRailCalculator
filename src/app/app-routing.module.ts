@@ -32,9 +32,13 @@ const routes: Routes = [
       },
       {
         path: 'list-characters',
-        loadChildren: () => import('./pages/list-characters/list-characters.module').then(m => m.ListCharactersPageModule)
+        loadChildren: () => import('./pages/list-characters/list-characters.module').then(m => m.ListCharactersPageModule),
       },
     ]
+  },
+  {
+    path: 'character-damage-calculator',
+    loadChildren: () => import('./pages/character-damage-calculator/character-damage-calculator.module').then( m => m.CharacterDamageCalculatorPageModule)
   },
 ];
 

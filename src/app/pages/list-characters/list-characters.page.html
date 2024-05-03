@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>listCharacters</ion-title>
+    <ion-title>Personagens</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -9,15 +9,15 @@
   <div class="myGrid" style="padding: 8px; background-color: #333;">
     @for (character of charactersList; track $index) {
 
-    <div
-      style="box-shadow: 0 3px 10px black; background-color: #333333; display: flex; align-items: center; justify-content: center; flex-direction: column; border-radius: 10px; overflow: hidden;">
-
-      <div [ngStyle]="{'background-color': character.rarity < 5 ? '#660066' : '#e5ab00'}" style="border-radius: 10px;">
+    <div (click)="goToCharacterDamageCalulatorPage(character)"
+      style="background-color: #333333; display: flex; align-items: center; justify-content: center; flex-direction: column; border-radius: 10px; overflow: hidden; position: relative;"
+      [ngStyle]="{'box-shadow': '0 3px 5px' + (character.rarity < 5 ? '#be29ec' : '#ffbf00'),'border': '1px solid' + (character.rarity < 5 ? '#be29ec' : '#ffbf00')}">
+      <!-- character.rarity < 5 ? '0 3px 5px #800080' : '0 3px 5px #ffbf00' -->
+      <div style="border-radius: 10px;">
         <img src="../../../assets/imagesCharacters/{{character.name}}.webp" alt="">
       </div>
 
-      <div
-        style="text-align: center; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding: 5px;">
+      <div style="text-align: center; position: absolute; bottom: 8px; padding: 2px; text-shadow: 1px 1px 1px black,2px 2px 1px black,3px 3px 1px black;">
         {{character.name}}
       </div>
     </div>
