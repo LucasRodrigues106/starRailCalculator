@@ -7,14 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { DamageCalculatorPageRoutingModule } from './damage-calculator-routing.module';
 
 import { DamageCalculatorPage } from './damage-calculator.page';
+import { MaskitoDirective } from '@maskito/angular';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    DamageCalculatorPageRoutingModule
+    DamageCalculatorPageRoutingModule,
+    MaskitoDirective
   ],
   declarations: [DamageCalculatorPage]
 })
-export class DamageCalculatorPageModule {}
+export class DamageCalculatorPageModule { }

@@ -1,0 +1,36 @@
+ion-item {
+  border-radius: 10px;
+}
+
+.inputWithExtraInfos {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.myInput {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #1e1e1e;
+  padding: 5px 15px 5px 15px;
+  gap: 5px;
+  font-size: 0.9rem;
+
+  .inputLabel {
+    color: white;
+  }
+
+  &:focus-within .inputLabel {
+    color: #2fdf75;
+  }
+
+  input {
+    width: 100%;
+    border: 0;
+    background-color: #1e1e1e;
+  }
+  input:focus {
+    outline: none;
+  }
+}

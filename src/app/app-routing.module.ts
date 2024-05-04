@@ -20,25 +20,25 @@ const routes: Routes = [
       {
         path: '',
         pathMatch: 'full',
-        redirectTo: 'list-characters',
+        redirectTo: 'damageCalculator',
       },
       {
-        path: 'damage-calculator',
+        path: 'damageCalculator',
         loadChildren: () => import('./pages/damage-calculator/damage-calculator.module').then(m => m.DamageCalculatorPageModule)
       },
       {
-        path: 'break-damage-calculator',
+        path: 'breakDamageCalculator',
         loadChildren: () => import('./pages/break-damage-calculator/break-damage-calculator.module').then(m => m.BreakDamageCalculatorPageModule)
       },
       {
-        path: 'list-characters',
+        path: 'listCharacters',
         loadChildren: () => import('./pages/list-characters/list-characters.module').then(m => m.ListCharactersPageModule),
       },
     ]
   },
   {
     path: 'character-damage-calculator',
-    loadChildren: () => import('./pages/character-damage-calculator/character-damage-calculator.module').then( m => m.CharacterDamageCalculatorPageModule)
+    loadChildren: () => import('./pages/character-damage-calculator/character-damage-calculator.module').then(m => m.CharacterDamageCalculatorPageModule)
   },
 ];
 

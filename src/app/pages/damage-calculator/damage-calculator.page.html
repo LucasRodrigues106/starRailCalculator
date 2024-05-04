@@ -27,79 +27,88 @@
 
 <ion-content [fullscreen]="true">
 
-  <ion-item style="flex: 6;">
-    <ion-input label="Descrição" labelPlacement="stacked" placeholder="ex.: Clara Pericia" [clearInput]="true" type="text"
-      [(ngModel)]="description">
-    </ion-input>
-  </ion-item>
+  <div style="display: flex; flex-direction: column; gap: 5px; padding:5px; background-color: #333;">
 
-  <div style="display: flex; flex-direction: column; gap: 5px; padding-top: 5px; padding-bottom: 5px;">
+    <ion-item style="flex: 6;">
+      <ion-input label="Descrição (Opcional)" labelPlacement="stacked" placeholder="ex.: Clara Pericia" [clearInput]="true"
+        type="text" [(ngModel)]="description">
+      </ion-input>
+    </ion-item>
+
+    <!-- <label class="myInput">
+      <span class="inputLabel">Nivel do Personagem</span>
+      <input class="myInput__input" type="numeric" [(ngModel)]="vapo" [maskito]="maskMinNumber">
+    </label>
+    <button (click)="junk()">junk</button> -->
 
     <div style="display: flex; gap: 5px;">
 
-      <ion-item style="flex: 6;">
-        <ion-input inputmode="numeric" min="0" max="80" label="Nivel do Personagem" labelPlacement="stacked"
-          [clearInput]="true" type="number" [(ngModel)]="characterLevel">
-        </ion-input>
+      <label class="myInput" style="flex: 6;">
+        <span class="inputLabel">Nivel do Personagem</span>
+        <input class="myInput__input" type="numeric" [(ngModel)]="characterLevel" [maskito]="maskToMaxLevelCharacter">
+      </label>
 
-      </ion-item>
-
-      <ion-item style="flex: 6;">
-        <ion-input inputmode="numeric" min="0" label="Nivel do Inimigo" labelPlacement="stacked" [clearInput]="true"
-          type="number" [(ngModel)]="enemyLevel">
-        </ion-input>
-
-      </ion-item>
+      <label class="myInput" style="flex: 6;">
+        <span class="inputLabel">Nivel do Inimigo</span>
+        <input class="myInput__input" type="numeric" [(ngModel)]="enemyLevel" [maskito]="maskMinNumber">
+      </label>
 
     </div>
 
-    <ion-item>
-      <ion-input inputmode="numeric" min="0" label="Atributo de escalonamento da Habilidade (ATQ, HP ou DEF)"
-        labelPlacement="stacked" [clearInput]="true" type="number" [(ngModel)]="scallingAtribute">
-      </ion-input>
-    </ion-item>
+    <label class="myInput">
+      <span class="inputLabel">
+        Atributo de escalonamento da Habilidade
+        <br>
+        <span style="font-size: 0.7rem; color: rgb(6, 142, 206);">
+          (ATQ, HP ou DEF)
+        </span>
+      </span>
+      <input type="numeric" [(ngModel)]="scallingAtribute" [maskito]="maskMinNumber">
+    </label>
 
-    <ion-item>
-      <ion-input inputmode="numeric" min="0" label="Multiplicador de Dano da Habilidade" labelPlacement="stacked"
-        [clearInput]="true" type="number" [(ngModel)]="skillMultiplier">
-      </ion-input>
-    </ion-item>
+    <label class="myInput">
+      <span class="inputLabel">Multiplicador de Dano da Habilidade</span>
+      <input class="myInput__input" type="numeric" [(ngModel)]="skillMultiplier" [maskito]="maskNumberPercentage">
+    </label>
 
-    <div>
+    <div class="inputWithExtraInfos">
       <ion-item>
-        <ion-label>Habilidade Pode Causar Dano Critico?</ion-label>
+        <ion-label style="font-size: 0.9rem;">Habilidade Pode Causar Dano Critico?</ion-label>
         <ion-toggle [(ngModel)]="causedCrit"></ion-toggle>
       </ion-item>
 
       @if (causedCrit) {
 
-      <ion-item>
-        <ion-input inputmode="numeric" min="0" label="Dano Critico do Personagem" labelPlacement="stacked"
-          [clearInput]="true" type="number" [(ngModel)]="critDamage">
-        </ion-input>
-      </ion-item>
+      <label class="myInput">
+        <span class="inputLabel">Dano Critico do Personagem</span>
+        <input class="myInput__input" type="numeric" [(ngModel)]="critDamage" [maskito]="maskNumberPercentage">
+      </label>
 
       }
     </div>
 
-    <ion-item>
-      <ion-input inputmode="numeric" min="0" label="Dano Elemental" labelPlacement="stacked" [clearInput]="true"
-        type="number" [(ngModel)]="elementalDamage">
-      </ion-input>
-    </ion-item>
+    <label class="myInput">
+      <span class="inputLabel">Dano Elemental</span>
+      <input class="myInput__input" type="numeric" [(ngModel)]="elementalDamage" [maskito]="maskNumberPercentage">
+    </label>
 
     <div style="display: flex; flex-direction: column; gap: 5px;">
 
-      <div>
-        <ion-item>
-          <ion-input inputmode="numeric" min="0" label="Bonus de Dano (Bonus de Ataque extra,pericia,atq basico)"
-            labelPlacement="stacked" [clearInput]="true" type="number" [(ngModel)]="damageBoost">
-            <ion-button fill="clear" slot="end" (click)="addBoostDamage()">
-              Adicionar
-            </ion-button>
+      <div class="inputWithExtraInfos">
 
-          </ion-input>
-        </ion-item>
+        <label class="myInput">
+          <span class="inputLabel">
+            Bonus de Dano
+            <span style="font-size: 0.7rem; color: rgb(6, 142, 206);">
+              (Bonus de Dano, Ataque extra, pericia, ataque basico)
+            </span>
+          </span>
+          <input class="myInput__input" type="numeric" [(ngModel)]="damageBoost" [maskito]="maskNumberPercentage">
+          <ion-button fill="clear" style="border: 1px solid #428cff; border-radius: 10px;" (click)="addBoostDamage()">
+            Adicionar
+          </ion-button>
+        </label>
+
         @if (allDamageBoost.length > 0) {
         <ion-item>
           <span style="font-size: 0.9rem;">
@@ -117,16 +126,16 @@
 
     <div style="display: flex; gap: 5px;">
 
-      <div style="display: flex; flex-direction: column; flex: 6;">
+      <div class="inputWithExtraInfos" style="display: flex; flex: 6; flex-direction: column;">
 
-        <ion-item style="flex: 6;">
-          <ion-input inputmode="numeric" min="0" label="Redução de Defesa" labelPlacement="stacked" [clearOnEdit]="true"
-            type="number" [(ngModel)]="reductionDefense" max="80">
-            <ion-button fill="clear" slot="end" aria-label="Show/hide" (click)="addReductionDefenseEnemy()">
-              <ion-icon name="add-outline"></ion-icon>
-            </ion-button>
-          </ion-input>
-        </ion-item>
+        <label class="myInput" style="flex: 6;">
+          <span class="inputLabel">Redução de Defesa</span>
+          <input class="myInput__input" type="numeric" [(ngModel)]="reductionDefense" [maskito]="maskNumberPercentage">
+        </label>
+
+        <ion-button fill="clear" aria-label="Show/hide" (click)="addReductionDefenseEnemy()">
+          Adicionar
+        </ion-button>
 
         @if (reductionsEnemyDefense.length > 0) {
         <span style="background-color: #1e1e1e; font-size: 0.8rem; text-align: center; padding: 4px;">
@@ -140,17 +149,16 @@
 
       </div>
 
-      <div style="display: flex; flex-direction: column; flex: 6;">
+      <div class="inputWithExtraInfos" style="display: flex; flex-direction: column; flex: 6;">
 
-        <ion-item style="flex: 6;">
-          <ion-input inputmode="numeric" min="0" label="Defesa Ignorada" labelPlacement="stacked" [clearOnEdit]="true"
-            type="number" [(ngModel)]="ignoreDefense">
-            <ion-button fill="clear" slot="end" aria-label="Show/hide" (click)="addIgnoreEnemyDefense()">
-              <ion-icon name="add-outline"></ion-icon>
-            </ion-button>
-          </ion-input>
+        <label class="myInput" style="flex: 6;">
+          <span class="inputLabel">Defesa Ignorada</span>
+          <input class="myInput__input" type="numeric" [(ngModel)]="ignoreDefense" [maskito]="maskNumberPercentage">
+        </label>
 
-        </ion-item>
+        <ion-button fill="clear" aria-label="Show/hide" (click)="addIgnoreEnemyDefense()">
+          Adicionar
+        </ion-button>
 
         @if (ignoredEnemyDefenses.length > 0) {
         <span style="background-color: #1e1e1e; font-size: 0.8rem; text-align: center; padding: 4px;">
@@ -165,23 +173,24 @@
 
     </div>
 
-    <ion-item>
-      <ion-input inputmode="numeric" min="0" label="Diminuição de Resistência" labelPlacement="stacked"
-        [clearInput]="true" type="number" [(ngModel)]="decreaseResistanceEnemy">
-      </ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-input inputmode="numeric" min="0" label="Penetração de Resistencia do Personagem" labelPlacement="stacked"
-        [clearInput]="true" type="number" [(ngModel)]="characterResistancePenetration">
-      </ion-input>
-    </ion-item>
+    <label class="myInput">
+      <span class="inputLabel">Diminuição de Resistência</span>
+      <input class="myInput__input" type="numeric" [(ngModel)]="decreaseResistanceEnemy"
+        [maskito]="maskNumberPercentage">
+    </label>
 
-    <ion-item>
+    <label class="myInput">
+      <span class="inputLabel">Penetração de Resistencia do Personagem</span>
+      <input class="myInput__input" type="numeric" [(ngModel)]="characterResistancePenetration"
+        [maskito]="maskNumberPercentage">
+    </label>
+
+    <ion-item style="font-size: 0.9rem;">
       <ion-label>Inimigo possui fraqueza ao elemento do personagem?</ion-label>
       <ion-toggle [(ngModel)]="weakAgainstTheElement"></ion-toggle>
     </ion-item>
 
-    <ion-item>
+    <ion-item style="font-size: 0.9rem;">
       <ion-label>Inimigo com quebra de Fraqueza?</ion-label>
       <ion-toggle [(ngModel)]="weaknessBroken"></ion-toggle>
     </ion-item>

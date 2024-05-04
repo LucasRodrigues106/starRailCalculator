@@ -13,6 +13,16 @@ export class SharedService {
     return numberArray.reduce((accumulator, current) => accumulator + current);
   }
 
+  transformStringInNumber(str: string): number {
+    if (str.includes('%')) {
+      return +[...str].filter((x) => x !== '%').join('');
+    }
+    if (!str.includes('.') || str.includes(' ')) {
+      return +[...str].filter(x => x.match(/\d/)).join('')
+    }
+    return +[...str].join('')
+  }
+
   async getCharactersList(): Promise<ICharacter[]> {
     return await (await fetch('../../assets/characterList.json')).json() as ICharacter[]
   }
